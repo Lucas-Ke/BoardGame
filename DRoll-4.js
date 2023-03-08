@@ -41,6 +41,11 @@ function DiceRole4() {
 
 function DiceSpin4() {
     document.getElementById("box-4").classList.add('TriggerSpin');
+    D34 = 1
+    setTimeout(D11, 1000)
+}
+function D11(){
+    D31 = 2
 }
 
 function Lice4() {
@@ -58,7 +63,6 @@ function Lice4() {
 
 function Lice44() {
     document.getElementById("butt4").classList.remove('RedDice');
-    D21()
 }
 
 function DiceRand4() {

@@ -9,9 +9,14 @@
 }
 
 .board{
+    border: blue 1px solid;
     width: 80%;
     height: 100%;
     position: absolute;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    
 }
 
 img{
@@ -90,4 +95,22 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 
 .AlmostDice{
     background-color: yellow;
+}
+#Player1{
+    height: 4vh;
+    width: 4vh;
+    background-color: aqua;
+    position: absolute;
+    grid-row: 15,16;
+    grid-column: 11/12;
+}
+.board--2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.board--2>p{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    border: 1px black solid;
 }

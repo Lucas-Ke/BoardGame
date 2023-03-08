@@ -1,0 +1,38 @@
+body{
+    background-color:antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 5vh;
+    flex-wrap: wrap;
+    color:black;
+    text-shadow: gray 2px 1px 1px;
+    font-family:cursive;
+}
+.rules{
+    background-color: rgb(255, 103, 103);
+    flex-wrap: wrap;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.rules p{
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rules ol{
+    font-size: 2.5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.playbutton{
+    margin-top: 10%;
+    background-color: cornflowerblue;
+    border: solid black 5px;
+    width: 25%;
+    text-align: center;
+    margin-left: 37%;
+}

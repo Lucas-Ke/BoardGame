@@ -41,7 +41,13 @@ function DiceRole3() {
 
 function DiceSpin3() {
     document.getElementById("box-3").classList.add('TriggerSpin');
+    D33 = 1
+    setTimeout(D14, 1000)
 }
+function D14(){
+    D34 = 2
+}
+
 
 function Lice3() {
     document.getElementById("box-3").classList.remove('TriggerSpin')
@@ -57,7 +63,6 @@ function Lice3() {
 
 function Lice33() {
     document.getElementById("butt3").classList.remove('RedDice')
-    D23()
 }
 
 function DiceRand3() {

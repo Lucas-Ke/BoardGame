@@ -36,3 +36,8 @@ h1{
     text-align: center;
     margin-left: 37%;
 }
+.playbutton a{
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+}

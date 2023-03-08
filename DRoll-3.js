@@ -1,10 +1,13 @@
 var place3 = 0
 function Dice3() {
-    DiceRole3();
-    DiceSpin3();
-    Lice();
-    Lice2();
-    Lice4();
+    if (D33 == 2){
+        DiceRole3();
+        DiceSpin3();
+        Lice4();
+    }
+    else{
+        console.log(Hello)
+    }
 }
 
 function DiceRole3() {
@@ -42,6 +45,19 @@ function DiceSpin3() {
 
 function Lice3() {
     document.getElementById("box-3").classList.remove('TriggerSpin')
+    document.getElementById("butt1").classList.remove('ButtDice')
+    document.getElementById("butt2").classList.remove('ButtDice')
+    document.getElementById("butt3").classList.add('ButtDice')
+    document.getElementById("butt4").classList.remove('ButtDice')
+    document.getElementById("butt1").classList.add('RedDice')
+    document.getElementById("butt2").classList.add('RedDice')
+    setTimeout(Lice33, 1000)
+    document.getElementById("butt4").classList.add('RedDice')
+}
+
+function Lice33() {
+    document.getElementById("butt3").classList.remove('RedDice')
+    D23()
 }
 
 function DiceRand3() {

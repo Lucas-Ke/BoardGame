@@ -36,6 +36,9 @@ h1{
     text-align: center;
     margin-left: 37%;
 }
+.playbutton:hover{
+    background-color: rgb(134, 176, 255);
+}
 .playbutton a{
     font-size: 4vh;
     text-decoration: none;

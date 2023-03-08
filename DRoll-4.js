@@ -1,10 +1,13 @@
-var place4 = 0
+var place4 = 0;
 function Dice4() {
-    DiceRole4();
-    DiceSpin4();
-    Lice();
-    Lice2();
-    Lice3();
+    if (D34 == 2){
+        DiceRole4();
+        DiceSpin4();
+        Lice();
+    }
+    else{
+        console.log(Hello)
+    }
 }
 
 function DiceRole4() {
@@ -42,6 +45,20 @@ function DiceSpin4() {
 
 function Lice4() {
     document.getElementById("box-4").classList.remove('TriggerSpin')
+    document.getElementById("butt1").classList.remove('ButtDice')
+    document.getElementById("butt2").classList.remove('ButtDice')
+    document.getElementById("butt3").classList.remove('ButtDice')
+    document.getElementById("butt4").classList.add('ButtDice')
+    document.getElementById("butt1").classList.add('RedDice')
+    document.getElementById("butt2").classList.add('RedDice')
+    document.getElementById("butt3").classList.add('RedDice')
+    setTimeout(Lice44, 1000)
+    
+}
+
+function Lice44() {
+    document.getElementById("butt4").classList.remove('RedDice');
+    D21()
 }
 
 function DiceRand4() {

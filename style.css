@@ -16,6 +16,8 @@ h1{
     margin-left: 25%;
     padding-bottom: 1vh;
     padding-top: 1vh;
+    overflow-x: auto;
+    height: 500px;
 }
 .rules p{
     text-align: center;

@@ -9,14 +9,9 @@
 }
 
 .board{
-    border: blue 1px solid;
     width: 80%;
     height: 100%;
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    grid-template-rows: repeat(15, 1fr);
-    
+    position: absolute;    
 }
 
 img{
@@ -96,21 +91,69 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .AlmostDice{
     background-color: yellow;
 }
-#Player1{
-    height: 4vh;
-    width: 4vh;
+
+.guy1{
+    height: 5%;
+    width: 4%;
     background-color: aqua;
-    position: absolute;
-    grid-row: 15,16;
-    grid-column: 11/12;
+    grid-column:3/ 4;
+    grid-row:3/ 4;
 }
+
 .board--2{
     display: flex;
     flex-wrap: wrap;
 }
+
 .board--2>p{
     width: 100px;
     height: 100px;
     background-color: wheat;
     border: 1px black solid;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    height: 100%;
+}
+
+.grid>div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;  
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.grid>div:not(.loss){
+    border: black 1px solid;
+}
+
+#Oven{
+    background-color: gray;
+}
+
+#Licorice-Lane{
+    background-color: maroon;
+}
+
+#Marshmellow-Meadow{
+    background-color: greenyellow;
+}
+
+#Gram-Canyon{
+    background-color: goldenrod;
+}
+
+#City-of-Chocolate{
+    background-color: brown;
+}
+
+#Smore{
+    background-color: yellow;
+}
+.loss{
+    background-color: #2196F3;
 }

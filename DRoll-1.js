@@ -46,6 +46,18 @@ function DiceSpin() {
 }
 function D12(){
     D32 = 2
+    // Mover()
+    console.log(tiles)
+    console.log(tiles[place])
+    // document.getElementsByClassName(tiles[D6]).appendChild(guy1);
+    // const para = document.createElement("placeholden");
+    // const node = document.createTextNode('[]')
+    // para.appendChild(node);
+    // document.getElementById('Oven').appendChild(para);
+    var img = document.createElement("img");
+    img.src = "http://www.google.com/intl/en_com/images/logo_plain.png";
+    var src = document.getElementsByClassName(tiles[place]);
+    src.appendChild(img);
 }
 
 

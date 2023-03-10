@@ -96,8 +96,6 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     height: 5%;
     width: 4%;
     background-color: aqua;
-    grid-column:3/ 4;
-    grid-row:3/ 4;
 }
 
 .board--2{
@@ -156,4 +154,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 .loss{
     background-color: #2196F3;
+}
+placeholden{
+    background-color: aqua;
 }

@@ -26,7 +26,7 @@ function DiceRole4() {
         setTimeout(DiceThree4, 1000)
     } else if (D64 == 4){
         DiceRand4()
-        setTimeout(DiceFour, 1000)
+        setTimeout(DiceFour4, 1000)
     } else if (D64 == 5){
         DiceRand4()
         setTimeout(DiceFive4, 1000)

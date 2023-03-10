@@ -71,7 +71,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     border: 1px black solid;
     width: calc(20% - 2px);
     height: calc(25vh - 2px);
-    background-color: grey;
+    background-color: rgb(255, 62, 62);
 }
 
 #butt1, #butt2, #butt3, #butt4{
@@ -85,7 +85,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .RedDice{
-    background-color: red;
+    background-color: rgb(0, 0, 0);
 }
 
 .AlmostDice{
@@ -96,6 +96,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     height: 5%;
     width: 4%;
     background-color: aqua;
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(6\).png);
     grid-column:3/ 4;
     grid-row:3/ 4;
 }
@@ -132,28 +133,43 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 #Oven{
-    background-color: gray;
+    background-image:url(/images/Drawing-6.sketchpad.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: gray;    
 }
 
 #Licorice-Lane{
     background-color: maroon;
+    background-image: url(/images/licorice-space-pixilart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #Marshmellow-Meadow{
-    background-color: greenyellow;
+    background-color: rgb(208, 255, 138);
+    background-image: url(/images/image-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #Gram-Canyon{
-    background-color: goldenrod;
+    background-color: rgb(222, 178, 65);
+    background-image: url(/images/Untitled_design-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #City-of-Chocolate{
-    background-color: brown;
+    background-color: rgb(90, 60, 0);
+    background-image: url(/images/image-removebg-preview\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #Smore{
     background-color: yellow;
 }
 .loss{
-    background-color: #2196F3;
+    background-color: #92ffc3;
 }

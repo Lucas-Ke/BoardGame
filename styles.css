@@ -5,7 +5,7 @@
 
 .crayon{
     display: flex;
-    justify-content: end
+    justify-content: end;
 }
 
 .board{
@@ -71,7 +71,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     border: 1px black solid;
     width: calc(20% - 2px);
     height: calc(25vh - 2px);
-    background-color: rgb(255, 62, 62);
+    background-color: gray;
 }
 
 #butt1, #butt2, #butt3, #butt4{
@@ -85,7 +85,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .RedDice{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
 }
 
 .AlmostDice{
@@ -136,7 +136,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-image:url(/images/Drawing-6.sketchpad.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: gray;    
+    background-color: rgb(97, 97, 97);    
 }
 
 #Licorice-Lane{
@@ -147,10 +147,11 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 #Marshmellow-Meadow{
-    background-color: rgb(208, 255, 138);
-    background-image: url(/images/image-removebg-preview\ \(1\).png);
-    background-size: cover;
+    background-color: #c2ed61;
+    background-image: url(/images/marshmallow-spaces-pixilart.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: 15px;
 }
 
 #Gram-Canyon{

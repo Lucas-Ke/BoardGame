@@ -46,7 +46,6 @@ function DiceSpin3() {
 }
 function D14(){
     D34 = 2
-    console.log(tiles);
     console.log(tiles[place3]);
     const img = document.createElement("img");
     img.src = "pasted_image_0-removebg-preview (7).png";

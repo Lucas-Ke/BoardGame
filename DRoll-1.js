@@ -1,4 +1,5 @@
 var place = 0
+var D2 = 0
 function Dice(){
     if (D31 == 2){
         DiceRole();
@@ -14,6 +15,8 @@ function DiceRole() {
     var D6 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("Dsix").innerHTML = D6;
     place += D6;
+    D2 = place - D6;
+    document.getElementById("PrePlace").innerHTML = D2;
     document.getElementById("Place").innerHTML = place;
     if (D6 == 1){
         DiceRand()
@@ -47,13 +50,15 @@ function DiceSpin() {
 
 function D12(){
     D32 = 2
+    document.getElementById(tiles[place]).classList.add('dingdong')
     // src.removeChild(img);
-    console.log(tiles);
-    console.log(tiles[place]);
+    console.log(tiles[D2]);
     const img = document.createElement("img");
-    img.src = "pasted_image_0-removebg-preview (6).png";
-    const src = document.getElementById(tiles[place]);
-    src.appendChild(img);
+    // img.src = "pasted_image_0-removebg-preview (6).png";
+    // const src = document.getElementById(tiles[place]);
+    // src.appendChild(img);
+    document.getElementById(tiles[D2]).classList.remove('dingdong')
+    // document.getElementById().removeChild(img)
 }
 
 function Lice() {

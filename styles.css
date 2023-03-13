@@ -177,3 +177,10 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 placeholden{
     background-color: aqua;
 }
+img{
+    position: absolute;
+    max-width: 50px;
+    height: auto;
+    margin-left: -2vw;
+    margin-top: -1.25vh;
+}

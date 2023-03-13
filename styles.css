@@ -180,7 +180,7 @@ placeholden{
 img{
     position: absolute;
     max-width: 4vw;
-    height:6vh;
+    max-height: 6vh;
     margin-left: -2vw;
     margin-top: -1.5vh;
 }

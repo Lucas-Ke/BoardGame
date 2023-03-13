@@ -162,7 +162,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .City-of-Chocolate{
     background-color: #5d3422;
     background-image: url(/images/pixilart-drawing\ \(13\).png);
-    background-size: contain;
+    background-size: cover;
    background-repeat: no-repeat;
    background-position: center; 
 }

@@ -147,18 +147,16 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .Marshmellow-Meadow{
-    background-color: #c2ed61;
-    background-image: url(/images/marshmallow-spaces-pixilart.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #d4f9bc;
+    background-image: url(/images/good-marshmallow-pixilart.png);
+    background-size:cover;
     background-position-x: 15px;
 }
 
 .Gram-Canyon{
-    background-color: rgb(222, 178, 65);
-    background-image: url(/images/Untitled_design-removebg-preview.png);
+    background-color: #dbac5f;
+    background-image: url(/images/pixilart-drawing\ \(11\).png);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .City-of-Chocolate{

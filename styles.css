@@ -177,8 +177,8 @@ placeholden{
 }
 img{
     position: absolute;
-    max-width: 50px;
-    height: auto;
+    max-width: 4vw;
+    max-height: 6vh;
     margin-left: -2vw;
-    margin-top: -1.25vh;
+    margin-top: -1.5vh;
 }

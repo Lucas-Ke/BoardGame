@@ -160,14 +160,16 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .City-of-Chocolate{
-    background-color: rgb(90, 60, 0);
-    background-image: url(/images/image-removebg-preview\ \(2\).png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #5d3422;
+    background-image: url(/images/pixilart-drawing\ \(13\).png);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center; 
 }
 
 .Smore{
-    background-color: yellow;
+    background-image:url(/images/pixilart-drawing\ \(12\).png);
+    background-size: contain;
 }
 .loss{
     background-color: #2196F3;
@@ -177,8 +179,8 @@ placeholden{
 }
 img{
     position: absolute;
-    max-width: 50px;
-    height: auto;
+    max-width: 4vw;
+    height:6vh;
     margin-left: -2vw;
-    margin-top: -1.25vh;
+    margin-top: -1.5vh;
 }

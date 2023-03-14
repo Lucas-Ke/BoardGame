@@ -16,27 +16,35 @@ function DiceRole2() {
     document.getElementById("Dsix-2").innerHTML = D62;
     place2 += D62;
     D22 = place2 - D62;
-    document.getElementById("Place-2").innerHTML = place2;
-    if (D62 == 1){
-        DiceRand2()
-        setTimeout(DiceOne2, 1000)
-    } else if (D62 == 2){
-        DiceRand2()
-        setTimeout(DiceTwo2, 1000)
-    } else if (D62 == 3){
-        DiceRand2()
-        setTimeout(DiceThree2, 1000)
-    } else if (D62 == 4){
-        DiceRand2()
-        setTimeout(DiceFour2, 1000)
-    } else if (D62 == 5){
-        DiceRand2()
-        setTimeout(DiceFive2, 1000)
-    } else if (D62 == 6){
-        DiceRand2()
-        setTimeout(DiceSix2, 1000)
-    } else{
-        alert('Error')
+    let o = 0;
+    while (place2 === place || place2 === place3 || place2 === place4 || o == 0) {
+        if (place2 === place || place2 === place3 || place2 === place4){
+            place2 += 1;
+        } else{
+            document.getElementById("Place-2").innerHTML = place2;
+            if (D62 == 1){
+                DiceRand2()
+                setTimeout(DiceOne2, 1000)
+            } else if (D62 == 2){
+                DiceRand2()
+                setTimeout(DiceTwo2, 1000)
+            } else if (D62 == 3){
+                DiceRand2()
+                setTimeout(DiceThree2, 1000)
+            } else if (D62 == 4){
+                DiceRand2()
+                setTimeout(DiceFour2, 1000)
+            } else if (D62 == 5){
+                DiceRand2()
+                setTimeout(DiceFive2, 1000)
+            } else if (D62 == 6){
+                DiceRand2()
+                setTimeout(DiceSix2, 1000)
+            } else{
+                alert('Error')
+            o++
+            }
+        }
     }
     document.getElementById("box-2").classList.remove('TriggerSpin')
 }
@@ -50,6 +58,7 @@ function D13(){
     D33 = 2
     document.getElementById(tiles[place2]).classList.add('Character2')
     document.getElementById(tiles[D22]).classList.remove('Character2')
+    document.getElementById('Oven3').remove();
 }
 
 

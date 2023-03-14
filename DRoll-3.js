@@ -50,6 +50,7 @@ function D14(){
     D34 = 2
     document.getElementById(tiles[place3]).classList.add('Character3')
     document.getElementById(tiles[D23]).classList.remove('Character3')
+    document.getElementById('Oven2').remove();
 }
 
 

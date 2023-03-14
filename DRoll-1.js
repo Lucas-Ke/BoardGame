@@ -16,28 +16,35 @@ function DiceRole() {
     document.getElementById("Dsix").innerHTML = D6;
     place += D6;
     D2 = place - D6;
-    document.getElementById("PrePlace").innerHTML = D2;
-    document.getElementById("Place").innerHTML = place;
-    if (D6 == 1){
-        DiceRand()
-        setTimeout(DiceOne, 1000)
-    } else if (D6 == 2){
-        DiceRand()
-        setTimeout(DiceTwo, 1000)
-    } else if (D6 == 3){
-        DiceRand()
-        setTimeout(DiceThree, 1000)
-    } else if (D6 == 4){
-        DiceRand()
-        setTimeout(DiceFour, 1000)
-    } else if (D6 == 5){
-        DiceRand()
-        setTimeout(DiceFive, 1000)
-    } else if (D6 == 6){
-        DiceRand()
-        setTimeout(DiceSix, 1000)
-    } else{
-        alert('Error')
+    let i = 0;
+    while (place === place2 || place === place3 || place === place4 || i == 0) {
+        if (place === place2 || place === place3 || place === place4){
+            place += 1;
+        } else{
+            document.getElementById("Place").innerHTML = place;
+            if (D6 == 1){
+                DiceRand()
+                setTimeout(DiceOne, 1000)
+            } else if (D6 == 2){
+                DiceRand()
+                setTimeout(DiceTwo, 1000)
+            } else if (D6 == 3){
+                DiceRand()
+                setTimeout(DiceThree, 1000)
+            } else if (D6 == 4){
+                DiceRand()
+                setTimeout(DiceFour, 1000)
+            } else if (D6 == 5){
+                DiceRand()
+                setTimeout(DiceFive, 1000)
+            } else if (D6 == 6){
+                DiceRand()
+                setTimeout(DiceSix, 1000)
+            } else{
+                alert('Error')
+            }
+            i++
+        }
     }
     document.getElementById("box").classList.remove('TriggerSpin')
 }
@@ -52,6 +59,8 @@ function D12(){
     D32 = 2
     document.getElementById(tiles[place]).classList.add('Character1')
     document.getElementById(tiles[D2]).classList.remove('Character1')
+    document.getElementById('Oven1').remove();
+
 }
 
 function Lice() {

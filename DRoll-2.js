@@ -1,4 +1,5 @@
 var place2 = 0
+var D22 = 0
 function Dice2() {
     if (D32 == 2){
         DiceRole2();
@@ -14,6 +15,7 @@ function DiceRole2() {
     var D62 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("Dsix-2").innerHTML = D62;
     place2 += D62;
+    D22 = place2 - D62;
     document.getElementById("Place-2").innerHTML = place2;
     if (D62 == 1){
         DiceRand2()
@@ -46,11 +48,8 @@ function DiceSpin2() {
 }
 function D13(){
     D33 = 2
-    console.log(tiles[place2]);
-    const img = document.createElement("img");
-    img.src = "pasted_image_0-removebg-preview (4).png";
-    const src = document.getElementById(tiles[place2]);
-    src.appendChild(img);
+    document.getElementById(tiles[place2]).classList.add('Character2')
+    document.getElementById(tiles[D22]).classList.remove('Character2')
 }
 
 

@@ -50,15 +50,8 @@ function DiceSpin() {
 
 function D12(){
     D32 = 2
-    document.getElementById(tiles[place]).classList.add('dingdong')
-    // src.removeChild(img);
-    console.log(tiles[D2]);
-    const img = document.createElement("img");
-    // img.src = "pasted_image_0-removebg-preview (6).png";
-    // const src = document.getElementById(tiles[place]);
-    // src.appendChild(img);
-    document.getElementById(tiles[D2]).classList.remove('dingdong')
-    // document.getElementById().removeChild(img)
+    document.getElementById(tiles[place]).classList.add('Character1')
+    document.getElementById(tiles[D2]).classList.remove('Character1')
 }
 
 function Lice() {

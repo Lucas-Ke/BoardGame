@@ -1,4 +1,5 @@
 var place4 = 0;
+var D24 = 0;
 function Dice4() {
     if (D34 == 2){
         DiceRole4();
@@ -14,6 +15,7 @@ function DiceRole4() {
     var D64 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("Dsix-4").innerHTML = D64;
     place4 += D64;
+    D24 = place4 - D64;
     document.getElementById("Place-4").innerHTML = place4;
     if (D64 == 1){
         DiceRand4()
@@ -46,11 +48,8 @@ function DiceSpin4() {
 }
 function D11(){
     D31 = 2
-    console.log(tiles[place4]);
-    const img = document.createElement("img");
-    img.src = "pasted_image_0-removebg-preview (8).png";
-    const src = document.getElementById(tiles[place4]);
-    src.appendChild(img);
+    document.getElementById(tiles[place4]).classList.add('Character4')
+    document.getElementById(tiles[D24]).classList.remove('Character4')
 }
 
 function Lice4() {

@@ -171,12 +171,11 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-image:url(/images/pixilart-drawing\ \(12\).png);
     background-size: contain;
 }
+
 .loss{
     background-color: #2196F3;
 }
-placeholden{
-    background-color: aqua;
-}
+
 img{
     position: absolute;
     max-width: 4vw;
@@ -184,6 +183,19 @@ img{
     margin-left: -2vw;
     margin-top: -1.5vh;
 }
-.dingdong{
+
+.Character1{
     background-image: url(pasted_image_0-removebg-preview\ \(6\).png);
+}
+
+.Character2{
+    background-image: url(pasted_image_0-removebg-preview\ \(4\).png);
+}
+
+.Character3{
+    background-image: url(pasted_image_0-removebg-preview\ \(7\).png);
+}
+
+.Character4{
+    background-image: url(pasted_image_0-removebg-preview\ \(8\).png);
 }

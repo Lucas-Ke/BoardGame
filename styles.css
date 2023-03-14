@@ -156,14 +156,14 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .Gram-Canyon{
     background-color: #dbac5f;
     background-image: url(/images/pixilart-drawing\ \(11\).png);
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
 .City-of-Chocolate{
     background-color: #5d3422;
-    background-image: url(/images/pixilart-drawing\ \(13\).png);
-    background-size: cover;
-   background-repeat: no-repeat;
+    background-image: url(/images/pixilart-drawing\ \(14\).png);
+    background-size: contain;
    background-position: center; 
 }
 

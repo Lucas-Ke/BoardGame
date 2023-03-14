@@ -1,4 +1,5 @@
 var place3 = 0
+var D23 = 0
 function Dice3() {
     if (D33 == 2){
         DiceRole3();
@@ -14,6 +15,7 @@ function DiceRole3() {
     var D63 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("Dsix-3").innerHTML = D63;
     place3 += D63;
+    D23 = place3 - D63;
     document.getElementById("Place-3").innerHTML = place3;
     if (D63 == 1){
         DiceRand3()
@@ -46,11 +48,8 @@ function DiceSpin3() {
 }
 function D14(){
     D34 = 2
-    console.log(tiles[place3]);
-    const img = document.createElement("img");
-    img.src = "pasted_image_0-removebg-preview (7).png";
-    const src = document.getElementById(tiles[place3]);
-    src.appendChild(img);
+    document.getElementById(tiles[place3]).classList.add('Character3')
+    document.getElementById(tiles[D23]).classList.remove('Character3')
 }
 
 

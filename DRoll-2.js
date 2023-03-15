@@ -16,8 +16,8 @@ function DiceRole2() {
     document.getElementById("Dsix-2").innerHTML = D62;
     place2 += D62;
     D22 = place2 - D62;
-    let o = 0;
-    while (place2 === place || place2 === place3 || place2 === place4 || o == 0) {
+    let i = 0;
+    while (place2 === place || place2 === place3 || place2 === place4 || i == 0) {
         if (place2 === place || place2 === place3 || place2 === place4){
             place2 += 1;
         } else{
@@ -42,8 +42,8 @@ function DiceRole2() {
                 setTimeout(DiceSix2, 1000)
             } else{
                 alert('Error')
-            o++
             }
+            i++
         }
     }
     document.getElementById("box-2").classList.remove('TriggerSpin')
@@ -54,6 +54,7 @@ function DiceSpin2() {
     D32 = 1
     setTimeout(D13, 1000)
 }
+
 function D13(){
     D33 = 2
     document.getElementById(tiles[place2]).classList.add('Character2')

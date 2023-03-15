@@ -187,7 +187,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .Marshmellow-Meadow{
-    background-color: #d4f9bc;
+    background-color: #eeffee;
     background-image: url(/images/good-marshmallow-pixilart.png);
     background-size:cover;
     background-position-x: 15px;
@@ -287,4 +287,19 @@ img{
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
+}
+
+.trick{
+    background-image: url(pixilart-drawing\ \(15\).png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: contain;
+}
+
+.treat{
+    background-image: url(pixilart-drawing\ \(15\).png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: contain;
+
 }

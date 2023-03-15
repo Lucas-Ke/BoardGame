@@ -85,3 +85,101 @@ if (MarshTrick2 == 0){
 } else {
     alert('error')
 }
+
+var Canyon1 = tiles[Math.floor(Math.random() * 5) + 46]
+var Canyon2 = tiles[Math.floor(Math.random() * 5) + 51]
+var Canyon3 = tiles[Math.floor(Math.random() * 5) + 56]
+var Canyon4 = tiles[Math.floor(Math.random() * 5) + 61]
+var Canyon5 = tiles[Math.floor(Math.random() * 5) + 66]
+var Canyon6 = tiles[Math.floor(Math.random() * 5) + 71]
+var Canyon7 = tiles[Math.floor(Math.random() * 5) + 76]
+var Canyon8 = tiles[Math.floor(Math.random() * 5) + 81]
+document.getElementById(Canyon1).classList.add('treat');
+document.getElementById(Canyon2).classList.add('treat');
+document.getElementById(Canyon3).classList.add('treat');
+document.getElementById(Canyon4).classList.add('treat');
+document.getElementById(Canyon5).classList.add('treat');
+document.getElementById(Canyon6).classList.add('treat');
+document.getElementById(Canyon7).classList.add('treat');
+document.getElementById(Canyon8).classList.add('treat');
+var CanyonTrick1 = Math.floor(Math.random() * 4)
+var CanyonTrick2 = Math.floor(Math.random() * 4)
+if (CanyonTrick1 == 0){
+    document.getElementById(Canyon1).classList.remove('treat');
+    document.getElementById(Canyon1).classList.add('trick');
+} else if (CanyonTrick1 == 1){
+    document.getElementById(Canyon2).classList.remove('treat');
+    document.getElementById(Canyon2).classList.add('trick');
+} else if (CanyonTrick1 == 2){
+    document.getElementById(Canyon3).classList.remove('treat');
+    document.getElementById(Canyon3).classList.add('trick');
+} else if (CanyonTrick1 == 3){
+    document.getElementById(Canyon4).classList.remove('treat');
+    document.getElementById(Canyon4).classList.add('trick');
+} else {
+    alert('error')
+}
+if (CanyonTrick2 == 0){
+    document.getElementById(Canyon5).classList.remove('treat');
+    document.getElementById(Canyon5).classList.add('trick');
+} else if (CanyonTrick2 == 1){
+    document.getElementById(Canyon6).classList.remove('treat');
+    document.getElementById(Canyon6).classList.add('trick');
+} else if (CanyonTrick2 == 2){
+    document.getElementById(Canyon7).classList.remove('treat');
+    document.getElementById(Canyon7).classList.add('trick');
+} else if (CanyonTrick2 == 3){
+    document.getElementById(Canyon8).classList.remove('treat');
+    document.getElementById(Canyon8).classList.add('trick');
+} else {
+    alert('error')
+}
+
+var City1 = tiles[Math.floor(Math.random() * 5) + 86]
+var City2 = tiles[Math.floor(Math.random() * 5) + 91]
+var City3 = tiles[Math.floor(Math.random() * 5) + 96]
+var City4 = tiles[Math.floor(Math.random() * 5) + 101]
+var City5 = tiles[Math.floor(Math.random() * 5) + 106]
+var City6 = tiles[Math.floor(Math.random() * 5) + 111]
+var City7 = tiles[Math.floor(Math.random() * 5) + 116]
+var City8 = tiles[Math.floor(Math.random() * 5) + 121]
+document.getElementById(City1).classList.add('treat');
+document.getElementById(City2).classList.add('treat');
+document.getElementById(City3).classList.add('treat');
+document.getElementById(City4).classList.add('treat');
+document.getElementById(City5).classList.add('treat');
+document.getElementById(City6).classList.add('treat');
+document.getElementById(City7).classList.add('treat');
+document.getElementById(City8).classList.add('treat');
+var CityTrick1 = Math.floor(Math.random() * 4)
+var CityTrick2 = Math.floor(Math.random() * 4)
+if (CityTrick1 == 0){
+    document.getElementById(City1).classList.remove('treat');
+    document.getElementById(City1).classList.add('trick');
+} else if (CityTrick1 == 1){
+    document.getElementById(City2).classList.remove('treat');
+    document.getElementById(City2).classList.add('trick');
+} else if (CityTrick1 == 2){
+    document.getElementById(City3).classList.remove('treat');
+    document.getElementById(City3).classList.add('trick');
+} else if (CityTrick1 == 3){
+    document.getElementById(City4).classList.remove('treat');
+    document.getElementById(City4).classList.add('trick');
+} else {
+    alert('error')
+}
+if (CityTrick2 == 0){
+    document.getElementById(City5).classList.remove('treat');
+    document.getElementById(City5).classList.add('trick');
+} else if (CityTrick2 == 1){
+    document.getElementById(City6).classList.remove('treat');
+    document.getElementById(City6).classList.add('trick');
+} else if (CityTrick2 == 2){
+    document.getElementById(City7).classList.remove('treat');
+    document.getElementById(City7).classList.add('trick');
+} else if (CityTrick2 == 3){
+    document.getElementById(City8).classList.remove('treat');
+    document.getElementById(City8).classList.add('trick');
+} else {
+    alert('error')
+}

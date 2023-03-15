@@ -201,7 +201,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .City-of-Chocolate{
-    background-color: #5d3422;
+    background-color: #351e13;
     background-image: url(/images/pixilart-drawing\ \(14\).png);
     background-size: contain;
    background-position: center; 
@@ -285,14 +285,14 @@ img{
 }
 
 .trick{
-    background-image: url();
+    background-image: url(trick-or-treat-pixilart.png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .treat{
-    background-image: url();
+    background-image: url(trick-or-treat-pixilart.png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;

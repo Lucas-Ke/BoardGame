@@ -1,5 +1,6 @@
 var place2 = 0
 var D22 = 0
+var Player2Stun = 0
 function Dice2() {
     if (D32 == 2){
         DiceRole2();
@@ -60,6 +61,10 @@ function D13(){
     document.getElementById(tiles[place2]).classList.add('Character2')
     document.getElementById(tiles[D22]).classList.remove('Character2')
     document.getElementById('Oven3').remove();
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 

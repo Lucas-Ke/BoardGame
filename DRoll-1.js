@@ -1,12 +1,20 @@
 var place = 0
 var D2 = 0
+var Player1Stun = 1
 function Dice(){
     if (D31 == 2){
-        DiceRole();
-        DiceSpin();
-        Lice2();
-    }
-    else{
+        if (Player1Stun > 0) {
+            Lice2();
+            D31 = 1
+            setTimeout(D12, 1000)
+            Player1Stun -= 1
+            document.getElementById("butt1").classList.add('AlmostDice')
+        } else {
+            DiceRole();
+            DiceSpin();
+            Lice2();    
+        }
+    } else {
         console.log(Hello)
     }
 }
@@ -60,7 +68,10 @@ function D12(){
     document.getElementById(tiles[place]).classList.add('Character1')
     document.getElementById(tiles[D2]).classList.remove('Character1')
     document.getElementById('Oven1').remove();
-
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function Lice() {

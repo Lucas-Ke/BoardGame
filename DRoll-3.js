@@ -1,5 +1,6 @@
 var place3 = 0
 var D23 = 0
+var Player3Stun = 0
 function Dice3() {
     if (D33 == 2){
         DiceRole3();
@@ -60,6 +61,10 @@ function D14(){
     document.getElementById(tiles[place3]).classList.add('Character3')
     document.getElementById(tiles[D23]).classList.remove('Character3')
     document.getElementById('Oven2').remove();
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 

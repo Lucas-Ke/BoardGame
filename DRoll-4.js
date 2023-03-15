@@ -1,5 +1,6 @@
 var place4 = 0;
 var D24 = 0;
+var Player4Stun = 0
 function Dice4() {
     if (D34 == 2){
         DiceRole4();
@@ -21,7 +22,7 @@ function DiceRole4() {
         if (place4 === place2 || place4 === place3 || place4 === place){
             place4 += 1;
         } else{
-            document.getElementById("Place-4").innerHTML = place;
+            document.getElementById("Place-4").innerHTML = place4;
             if (D64 == 1){
                 DiceRand4()
                 setTimeout(DiceOne4, 1000)
@@ -60,6 +61,10 @@ function D11(){
     document.getElementById(tiles[place4]).classList.add('Character4')
     document.getElementById(tiles[D24]).classList.remove('Character4')
     document.getElementById('Oven4').remove();
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function Lice4() {
@@ -71,8 +76,7 @@ function Lice4() {
     document.getElementById("butt1").classList.add('RedDice')
     document.getElementById("butt2").classList.add('RedDice')
     document.getElementById("butt3").classList.add('RedDice')
-    setTimeout(Lice44, 1000)
-    
+    setTimeout(Lice44, 1000)    
 }
 
 function Lice44() {

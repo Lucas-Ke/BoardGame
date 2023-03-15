@@ -213,7 +213,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .loss{
-    background-color: #2196F3;
+    background-color: #000000;
 }
 
 img{
@@ -225,28 +225,28 @@ img{
 }
 
 .Character1{
-    background-image: url(pasted_image_0-removebg-preview\ \(6\).png);
+    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character2{
-    background-image: url(pasted_image_0-removebg-preview\ \(4\).png);
+    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character3{
-    background-image: url(pasted_image_0-removebg-preview\ \(7\).png);
+    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character4{
-    background-image: url(pasted_image_0-removebg-preview\ \(8\).png);
+    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;

@@ -128,7 +128,10 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     height: 100%;
 }
 
-.grid>div:not(.loss){
+.Gram-Canyon,
+.Marshmellow-Meadow,
+.Licorice-Lane,
+.City-of-Chocolate{
     border: black 1px solid;
 }
 
@@ -205,6 +208,13 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-image: url(/images/pixilart-drawing\ \(14\).png);
     background-size: contain;
    background-position: center; 
+}
+
+
+.loss2,
+.loss3,
+.loss1 {
+    border: 0px;
 }
 
 .Smore{

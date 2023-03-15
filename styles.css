@@ -211,10 +211,6 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-image:url(/images/pixilart-drawing\ \(12\).png);
     background-size: contain;
 }
-
-.loss{
-    background-color: #2196F3;
-}
 .loss1{
     background-color:rgb(92, 56, 31) ;
 }
@@ -226,11 +222,11 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-color: rgb(92, 56, 31);
 }
 .lossG{
-    background-image: url(/images/pixilart-drawing\ \(17\).png);
+    background-image: url(/images/gloopy-pixilart.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-color: #9c5a3c;
+    background-color: rgb(92, 56, 31);
 }
 .loss2{
     background-color: #e9b055;
@@ -241,7 +237,6 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 0px;
 }
 .loss3{
     background-color:#bef997;

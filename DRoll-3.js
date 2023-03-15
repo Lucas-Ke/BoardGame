@@ -16,27 +16,35 @@ function DiceRole3() {
     document.getElementById("Dsix-3").innerHTML = D63;
     place3 += D63;
     D23 = place3 - D63;
-    document.getElementById("Place-3").innerHTML = place3;
-    if (D63 == 1){
-        DiceRand3()
-        setTimeout(DiceOne3, 1000)
-    } else if (D63 == 2){
-        DiceRand3()
-        setTimeout(DiceTwo3, 1000)
-    } else if (D63 == 3){
-        DiceRand3()
-        setTimeout(DiceThree3, 1000)
-    } else if (D63 == 4){
-        DiceRand3()
-        setTimeout(DiceFour3, 1000)
-    } else if (D63 == 5){
-        DiceRand3()
-        setTimeout(DiceFive3, 1000)
-    } else if (D63 == 6){
-        DiceRand3()
-        setTimeout(DiceSix3, 1000)
-    } else{
-        alert('Error')
+    let i = 0;
+    while (place3 === place2 || place3 === place || place3 === place4 || i == 0) {
+        if (place3 === place2 || place3 === place || place3 === place4){
+            place3 += 1;
+        } else{
+            document.getElementById("Place-3").innerHTML = place3;
+            if (D63 == 1){
+                DiceRand3()
+                setTimeout(DiceOne3, 1000)
+            } else if (D63 == 2){
+                DiceRand3()
+                setTimeout(DiceTwo3, 1000)
+            } else if (D63 == 3){
+                DiceRand3()
+                setTimeout(DiceThree3, 1000)
+            } else if (D63 == 4){
+                DiceRand3()
+                setTimeout(DiceFour3, 1000)
+            } else if (D63 == 5){
+                DiceRand3()
+                setTimeout(DiceFive3, 1000)
+            } else if (D63 == 6){
+                DiceRand3()
+                setTimeout(DiceSix3, 1000)
+            } else{
+                alert('Error')
+            }
+            i++
+        }
     }
     document.getElementById("box-3").classList.remove('TriggerSpin')
 }
@@ -46,6 +54,7 @@ function DiceSpin3() {
     D33 = 1
     setTimeout(D14, 1000)
 }
+
 function D14(){
     D34 = 2
     document.getElementById(tiles[place3]).classList.add('Character3')

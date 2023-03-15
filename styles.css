@@ -213,9 +213,39 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .loss{
-    background-color: #000000;
+    background-color: #2196F3;
 }
-
+.loss1{
+    background-color:rgb(92, 56, 31) ;
+}
+.lossCC{
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(2\).png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(92, 56, 31);
+}
+.loss2{
+    background-color: #e9b055;
+}
+.lossLL{
+    background-color: #e9b055;
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(3\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+.loss3{
+    background-color:#bef997;
+}
+.lossMM{
+    background-color: #bef997;
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 img{
     position: absolute;
     max-width: 4vw;
@@ -225,28 +255,28 @@ img{
 }
 
 .Character1{
-    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-image: url(pasted_image_0-removebg-preview\ \(6\).png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character2{
-    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-image: url(pasted_image_0-removebg-preview\ \(4\).png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character3{
-    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-image: url(pasted_image_0-removebg-preview\ \(7\).png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .Character4{
-    background-image: url(/images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-image: url(pasted_image_0-removebg-preview\ \(8\).png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;

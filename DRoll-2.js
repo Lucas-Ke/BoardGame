@@ -89,6 +89,7 @@ function Lice22() {
     document.getElementById("butt2").classList.remove('AlmostDice')
     document.getElementById("butt3").classList.remove('AlmostDice')
     document.getElementById("butt4").classList.remove('AlmostDice')
+    ItemCheck2()
 }
 
 function DiceRand2() {

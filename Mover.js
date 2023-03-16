@@ -196,8 +196,48 @@ if (CityTrick2 == 0){
     alert('error')
 };
 
+function ItemCheck1() {
+    if (tiles[place1] === Marsh1 || tiles[place1] === Marsh2 || tiles[place1] === Marsh3 || tiles[place1] === Marsh4 || tiles[place1] === Marsh5 || tiles[place1] === Marsh6 || tiles[place1] === Marsh7 || tiles[place1] === Marsh8) {
+        Player1Stun += 1
+    } else if (tiles[place1] === Canyon1 || tiles[place1] === Canyon2 || tiles[place1] === Canyon3 || tiles[place1] === Canyon4 || tiles[place1] === Canyon5 || tiles[place1] === Canyon6 || tiles[place1] === Canyon7 || tiles[place1] === Canyon8){
+        Player1Stun += 1
+    } else if (tiles[place1] === City1 || tiles[place1] === City2 || tiles[place1] === City3 || tiles[place1] === City4 || tiles[place1] === City5 || tiles[place1] === City6 || tiles[place1] === City7 || tiles[place1] === City8){
+        Player1Stun += 1
+    } else {
+        console.log('good')
+    }
+}
+
+function ItemCheck2() {
+    if (tiles[place2] === Marsh1 || tiles[place2] === Marsh2 || tiles[place2] === Marsh3 || tiles[place2] === Marsh4 || tiles[place2] === Marsh5 || tiles[place2] === Marsh6 || tiles[place2] === Marsh7 || tiles[place2] === Marsh8) {
+        Player2Stun += 1
+    } else if (tiles[place2] === Canyon1 || tiles[place2] === Canyon2 || tiles[place2] === Canyon3 || tiles[place2] === Canyon4 || tiles[place2] === Canyon5 || tiles[place2] === Canyon6 || tiles[place2] === Canyon7 || tiles[place2] === Canyon8){
+        Player2Stun += 1
+    } else if (tiles[place2] === City1 || tiles[place2] === City2 || tiles[place2] === City3 || tiles[place2] === City4 || tiles[place2] === City5 || tiles[place2] === City6 || tiles[place2] === City7 || tiles[place2] === City8){
+        Player2Stun += 1
+    } else {
+        console.log('good')
+    }
+}
+
+function ItemCheck3() {
+    if (tiles[place3] === Marsh1 || tiles[place3] === Marsh2 || tiles[place3] === Marsh3 || tiles[place3] === Marsh4 || tiles[place3] === Marsh5 || tiles[place3] === Marsh6 || tiles[place3] === Marsh7 || tiles[place3] === Marsh8) {
+        Player3Stun += 1
+    } else if (tiles[place3] === Canyon1 || tiles[place3] === Canyon2 || tiles[place3] === Canyon3 || tiles[place3] === Canyon4 || tiles[place3] === Canyon5 || tiles[place3] === Canyon6 || tiles[place3] === Canyon7 || tiles[place3] === Canyon8){
+        Player3Stun += 1
+    } else if (tiles[place3] === City1 || tiles[place3] === City2 || tiles[place3] === City3 || tiles[place3] === City4 || tiles[place3] === City5 || tiles[place3] === City6 || tiles[place3] === City7 || tiles[place3] === City8){
+        Player3Stun += 1
+    } else {
+        console.log('good')
+    }
+}
+
 function ItemCheck4() {
     if (tiles[place4] === Marsh1 || tiles[place4] === Marsh2 || tiles[place4] === Marsh3 || tiles[place4] === Marsh4 || tiles[place4] === Marsh5 || tiles[place4] === Marsh6 || tiles[place4] === Marsh7 || tiles[place4] === Marsh8) {
+        Player4Stun += 1
+    } else if (tiles[place4] === Canyon1 || tiles[place4] === Canyon2 || tiles[place4] === Canyon3 || tiles[place4] === Canyon4 || tiles[place4] === Canyon5 || tiles[place4] === Canyon6 || tiles[place4] === Canyon7 || tiles[place4] === Canyon8){
+        Player4Stun += 1
+    } else if (tiles[place4] === City1 || tiles[place4] === City2 || tiles[place4] === City3 || tiles[place4] === City4 || tiles[place4] === City5 || tiles[place4] === City6 || tiles[place4] === City7 || tiles[place4] === City8){
         Player4Stun += 1
     } else {
         console.log('good')

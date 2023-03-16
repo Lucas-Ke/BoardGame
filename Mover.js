@@ -182,4 +182,12 @@ if (CityTrick2 == 0){
     document.getElementById(City8).classList.add('trick');
 } else {
     alert('error')
+};
+
+function ItemCheck4() {
+    if (tiles[place4] === Marsh1 || tiles[place4] === Marsh2 || tiles[place4] === Marsh3 || tiles[place4] === Marsh4 || tiles[place4] === Marsh5 || tiles[place4] === Marsh6 || tiles[place4] === Marsh7 || tiles[place4] === Marsh8) {
+        Player4Stun += 1
+    } else {
+        console.log('good')
+    }
 }

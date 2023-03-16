@@ -3,12 +3,19 @@ var D24 = 0;
 var Player4Stun = 0
 function Dice4() {
     if (D34 == 2){
-        DiceRole4();
-        DiceSpin4();
-        Lice();
-    }
-    else{
-        console.log(Hello)
+        if (Player4Stun > 0) {
+            Lice();
+            D34 = 1
+            setTimeout(D11, 1000)
+            Player4Stun -= 2
+            document.getElementById("butt4").classList.add('AlmostDice')
+        } else {    
+            DiceRole4();
+            DiceSpin4();
+            Lice();
+        }
+    } else {
+        console.log(Player4Stun)
     }
 }
 
@@ -61,10 +68,6 @@ function D11(){
     document.getElementById(tiles[place4]).classList.add('Character4')
     document.getElementById(tiles[D24]).classList.remove('Character4')
     document.getElementById('Oven4').remove();
-    document.getElementById("butt1").classList.remove('AlmostDice')
-    document.getElementById("butt2").classList.remove('AlmostDice')
-    document.getElementById("butt3").classList.remove('AlmostDice')
-    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function Lice4() {
@@ -81,6 +84,11 @@ function Lice4() {
 
 function Lice44() {
     document.getElementById("butt4").classList.remove('RedDice');
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
+    ItemCheck4()
 }
 
 function DiceRand4() {

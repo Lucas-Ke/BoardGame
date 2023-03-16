@@ -1,13 +1,13 @@
 var place = 0
 var D2 = 0
-var Player1Stun = 1
+var Player1Stun = 0
 function Dice(){
     if (D31 == 2){
         if (Player1Stun > 0) {
             Lice2();
             D31 = 1
             setTimeout(D12, 1000)
-            Player1Stun -= 1
+            Player1Stun -= 2
             document.getElementById("butt1").classList.add('AlmostDice')
         } else {
             DiceRole();
@@ -15,7 +15,7 @@ function Dice(){
             Lice2();    
         }
     } else {
-        console.log(Hello)
+        console.log('hello world')
     }
 }
 
@@ -68,10 +68,6 @@ function D12(){
     document.getElementById(tiles[place]).classList.add('Character1')
     document.getElementById(tiles[D2]).classList.remove('Character1')
     document.getElementById('Oven1').remove();
-    document.getElementById("butt1").classList.remove('AlmostDice')
-    document.getElementById("butt2").classList.remove('AlmostDice')
-    document.getElementById("butt3").classList.remove('AlmostDice')
-    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function Lice() {
@@ -88,6 +84,10 @@ function Lice() {
 
 function Lice11() {
     document.getElementById("butt1").classList.remove('RedDice')
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function DiceRand() {

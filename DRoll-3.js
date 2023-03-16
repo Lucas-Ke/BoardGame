@@ -3,15 +3,21 @@ var D23 = 0
 var Player3Stun = 0
 function Dice3() {
     if (D33 == 2){
-        DiceRole3();
-        DiceSpin3();
-        Lice4();
-    }
-    else{
-        console.log(Hello)
+        if (Player3Stun > 0) {
+            Lice4();
+            D33 = 1
+            setTimeout(D14, 1000)
+            Player3Stun -= 2
+            document.getElementById("butt3").classList.add('AlmostDice')
+        } else {    
+            DiceRole3();
+            DiceSpin3();
+            Lice4();
+        }
+    } else {
+        console.log(Player4Stun)
     }
 }
-
 function DiceRole3() {
     var D63 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("Dsix-3").innerHTML = D63;
@@ -61,10 +67,6 @@ function D14(){
     document.getElementById(tiles[place3]).classList.add('Character3')
     document.getElementById(tiles[D23]).classList.remove('Character3')
     document.getElementById('Oven2').remove();
-    document.getElementById("butt1").classList.remove('AlmostDice')
-    document.getElementById("butt2").classList.remove('AlmostDice')
-    document.getElementById("butt3").classList.remove('AlmostDice')
-    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 
@@ -77,11 +79,14 @@ function Lice3() {
     document.getElementById("butt1").classList.add('RedDice')
     document.getElementById("butt2").classList.add('RedDice')
     setTimeout(Lice33, 1000)
-    document.getElementById("butt4").classList.add('RedDice')
 }
 
 function Lice33() {
     document.getElementById("butt3").classList.remove('RedDice')
+    document.getElementById("butt1").classList.remove('AlmostDice')
+    document.getElementById("butt2").classList.remove('AlmostDice')
+    document.getElementById("butt3").classList.remove('AlmostDice')
+    document.getElementById("butt4").classList.remove('AlmostDice')
 }
 
 function DiceRand3() {

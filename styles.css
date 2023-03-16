@@ -190,7 +190,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 
 .Marshmellow-Meadow{
-    background-color: #eeffee;
+    background-color: #e4ffe4;
     background-image: url(/images/good-marshmallow-pixilart.png);
     background-size:cover;
     background-position-x: 15px;
@@ -220,6 +220,10 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .Smore{
     background-image:url(/images/pixilart-drawing\ \(12\).png);
     background-size: contain;
+}
+.loss{
+    background-image: url(/images/pixilart-drawing\ \(21\).png);
+    background-position: center;
 }
 .loss1{
     background-color:rgb(92, 56, 31) ;

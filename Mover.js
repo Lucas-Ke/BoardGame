@@ -7,6 +7,18 @@ class Player {
     }
 
 }
+function playsound(link) {
+    let laugh= new Audio(link);
+    laugh.play();
+}
+
+playsound("sounds/honk.mp3");
+let lossMM = document.querySelector(".lossMM")
+lossMM.addEventListener ("click", ()=>{  
+    console.log("soundplayed")
+    playsound("sounds/honk.mp3");
+}
+)
 
 // items = {
 //     {

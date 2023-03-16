@@ -203,3 +203,20 @@ function ItemCheck4() {
         console.log('good')
     }
 }
+
+function wincheck() {
+    if (place1 >= Space127)
+    alert('Player 1 Wins!')
+}
+function wincheck() {
+    if (place2 >= Space127)
+    alert('Player 2 Wins!')
+}
+function wincheck() {
+    if (place3 >= Space127)
+    alert('Player 3 Wins!')
+}
+function wincheck() {
+    if (place4 >= Space127)
+    alert('Player 4 Wins!')
+}

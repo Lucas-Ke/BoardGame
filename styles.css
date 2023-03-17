@@ -245,7 +245,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-color: rgb(92, 56, 31);
 }
 .lossG{
-    background-image: url(/images/gloopy-pixilart.png);
+    background-image: url(/images/gloopy-pixilart\ \(1\).png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -259,7 +259,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 }
 .lossLL{
     background-color: #e9b055;
-    background-image: url(/images/pasted_image_0-removebg-preview\ \(3\).png);
+    background-image: url(/images/cinnamon-snail-pixilart.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

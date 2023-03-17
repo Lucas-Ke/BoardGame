@@ -415,10 +415,11 @@ img{
 }
 
 .Danger{
-    background-image: url(images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-image: url(images/pixilart-drawing\ \(22\).png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: contain;
+    margin-left: 3px;
 }
 
 .winner1{

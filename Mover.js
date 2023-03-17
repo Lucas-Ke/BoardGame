@@ -12,12 +12,25 @@ function playsound(link) {
     laugh.play();
 }
 
-playsound("sounds/honk.mp3");
+
 let lossMM = document.querySelector(".lossMM")
 lossMM.addEventListener ("click", ()=>{  
     console.log("soundplayed")
     playsound("sounds/honk.mp3");
 }
+)
+
+function playsound2(link) {
+    let meow= new Audio(link);
+    meow.play();
+}
+
+let lossLLall = document.querySelectorAll(".lossLL")
+
+lossLLall.forEach(lossLL => lossLL.addEventListener("click", () => {  
+    console.log("soundplayed")
+    playsound2("sounds/8.mp3");
+})
 )
 
 // items = {

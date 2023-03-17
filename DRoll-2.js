@@ -68,7 +68,12 @@ function D13(){
     document.getElementById("Sidebar5").classList.remove('Danger')
     LizardStun2()
     LizzDice2()
-    document.getElementById(tiles[place2]).classList.add('Character2')
+    if (place2 >= 126){
+        document.getElementById('Space127').classList.add('Character2')
+        setTimeout(wincheck, 500)
+    } else {
+        document.getElementById(tiles[place2]).classList.add('Character2')
+    }
     document.getElementById(tiles[D22]).classList.remove('Character2')
     document.getElementById('Oven3').remove();
 }

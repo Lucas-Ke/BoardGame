@@ -114,14 +114,14 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     border: 1px black solid;
 }
 
-.grid{
+#grid{
     display: grid;
     grid-template-columns: repeat(17, 1fr);
     grid-template-rows: repeat(15, 1fr);
     height: 100%;
 }
 
-.grid>div{
+#grid>div{
     text-align: center;
     /* padding: 20px 0; */
     font-size: 30px;  
@@ -419,4 +419,11 @@ img{
     background-repeat: no-repeat;
     background-position:center;
     background-size: contain;
+}
+
+.winner1{
+    background-image: url(images/p1-win-screen-pixilart.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

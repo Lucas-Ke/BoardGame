@@ -522,35 +522,3 @@ function LizzDice4() {
         console.log('good')
     }
 }
-
-function LizzDance1(){
-    if (Player1Stun > 0) {
-        document.getElementById("Sidebar1").classList.add('Danger')
-    } else {    
-        document.getElementById("Sidebar1").classList.remove('Danger')
-    }
-}
-
-function LizzDance2(){
-    if (Player2Stun > 0) {
-        document.getElementById("Sidebar3").classList.add('Danger')
-    } else {    
-        document.getElementById("Sidebar3").classList.remove('Danger')
-    }
-}
-
-function LizzDance3(){
-    if (Player3Stun > 0) {
-        document.getElementById("Sidebar5").classList.add('Danger')
-    } else {    
-        document.getElementById("Sidebar5").classList.remove('Danger')
-    }
-}
-
-function LizzDance4(){
-    if (Player4Stun > 0) {
-        document.getElementById("Sidebar7").classList.add('Danger')
-    } else {    
-        document.getElementById("Sidebar7").classList.remove('Danger')
-    }
-}

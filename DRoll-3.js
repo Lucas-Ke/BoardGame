@@ -67,7 +67,12 @@ function D14(){
     document.getElementById("Sidebar7").classList.remove('Danger')
     LizardStun3()
     LizzDice3()
-    document.getElementById(tiles[place3]).classList.add('Character3')
+    if (place3 >= 126){
+        document.getElementById('Space127').classList.add('Character3')
+        setTimeout(wincheck, 500)
+    } else {
+        document.getElementById(tiles[place3]).classList.add('Character3')
+    }
     document.getElementById(tiles[D23]).classList.remove('Character3')
     document.getElementById('Oven2').remove();
 }
@@ -91,7 +96,6 @@ function Lice33() {
     document.getElementById("butt3").classList.remove('AlmostDice')
     document.getElementById("butt4").classList.remove('AlmostDice')
     ItemCheck3()
-    wincheck()
 }
 
 function DiceRand3() {

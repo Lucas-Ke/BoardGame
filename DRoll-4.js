@@ -68,7 +68,12 @@ function D11(){
     document.getElementById("Sidebar1").classList.remove('Danger')
     LizardStun4()
     LizzDice4()
-    document.getElementById(tiles[place4]).classList.add('Character4')
+    if (place4 >= 126){
+        document.getElementById('Space127').classList.add('Character4')
+        setTimeout(wincheck, 500)
+    } else {
+        document.getElementById(tiles[place4]).classList.add('Character4')
+    }
     document.getElementById(tiles[D24]).classList.remove('Character4')
     document.getElementById('Oven4').remove();
 }
@@ -92,7 +97,6 @@ function Lice44() {
     document.getElementById("butt3").classList.remove('AlmostDice')
     document.getElementById("butt4").classList.remove('AlmostDice')
     ItemCheck4()
-    wincheck()
 }
 
 function DiceRand4() {

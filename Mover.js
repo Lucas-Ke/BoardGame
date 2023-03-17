@@ -7,6 +7,32 @@ class Player {
     }
 
 }
+function playsound4(link) {
+    let splat= new Audio(link);
+    splat.play();
+}
+
+
+let lossG = document.querySelector(".lossG")
+lossG.addEventListener ("click", ()=>{  
+    console.log("soundplayed")
+    playsound4("sounds/splat.mp3");
+}
+)
+
+function playsound3(link) {
+    let ww= new Audio(link);
+    ww.play();
+}
+
+
+let lossCC = document.querySelector(".lossCC")
+lossCC.addEventListener ("click", ()=>{  
+    console.log("soundplayed")
+    playsound3("sounds/Waltuh.mp3");
+}
+)
+
 function playsound(link) {
     let laugh= new Audio(link);
     laugh.play();
@@ -30,6 +56,19 @@ let lossLLall = document.querySelectorAll(".lossLL")
 lossLLall.forEach(lossLL => lossLL.addEventListener("click", () => {  
     console.log("soundplayed")
     playsound2("sounds/8.mp3");
+})
+)
+
+function playsound5(link) {
+    let dice= new Audio(link);
+    dice.play();
+}
+
+let playerbox = document.querySelectorAll(".playerbox")
+
+playerbox.forEach(playerbox => playerbox.addEventListener("click", () => {  
+    console.log("soundplayed")
+    playsound5("sounds/dice.mp3");
 })
 )
 

@@ -65,6 +65,8 @@ function DiceSpin() {
 
 function D12(){
     D32 = 2
+    document.getElementById("Sidebar2").classList.remove('Danger')
+    LizardStun1()
     document.getElementById(tiles[place]).classList.add('Character1')
     document.getElementById(tiles[D2]).classList.remove('Character1')
     document.getElementById('Oven1').remove();
@@ -89,6 +91,7 @@ function Lice11() {
     document.getElementById("butt3").classList.remove('AlmostDice')
     document.getElementById("butt4").classList.remove('AlmostDice')
     ItemCheck1()
+    wincheck()
 }
 
 function DiceRand() {
@@ -185,3 +188,4 @@ function DiceSix() {
     document.getElementById("box7").classList.add('DiceOn')
     document.getElementById("box9").classList.add('DiceOn')
 }
+

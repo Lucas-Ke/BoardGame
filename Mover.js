@@ -65,38 +65,38 @@ document.getElementById(Marsh5).classList.add('treat');
 document.getElementById(Marsh6).classList.add('treat');
 document.getElementById(Marsh7).classList.add('treat');
 document.getElementById(Marsh8).classList.add('treat');
-var MarshTrick1 = Math.floor(Math.random() * 4)
-var MarshTrick2 = Math.floor(Math.random() * 4)
-if (MarshTrick1 == 0){
-    document.getElementById(Marsh1).classList.remove('treat');
-    document.getElementById(Marsh1).classList.add('trick');
-} else if (MarshTrick1 == 1){
-    document.getElementById(Marsh2).classList.remove('treat');
-    document.getElementById(Marsh2).classList.add('trick');
-} else if (MarshTrick1 == 2){
-    document.getElementById(Marsh3).classList.remove('treat');
-    document.getElementById(Marsh3).classList.add('trick');
-} else if (MarshTrick1 == 3){
-    document.getElementById(Marsh4).classList.remove('treat');
-    document.getElementById(Marsh4).classList.add('trick');
-} else {
-    alert('error')
-}
-if (MarshTrick2 == 0){
-    document.getElementById(Marsh5).classList.remove('treat');
-    document.getElementById(Marsh5).classList.add('trick');
-} else if (MarshTrick2 == 1){
-    document.getElementById(Marsh6).classList.remove('treat');
-    document.getElementById(Marsh6).classList.add('trick');
-} else if (MarshTrick2 == 2){
-    document.getElementById(Marsh7).classList.remove('treat');
-    document.getElementById(Marsh7).classList.add('trick');
-} else if (MarshTrick2 == 3){
-    document.getElementById(Marsh8).classList.remove('treat');
-    document.getElementById(Marsh8).classList.add('trick');
-} else {
-    alert('error')
-}
+// var MarshTrick1 = Math.floor(Math.random() * 4)
+// var MarshTrick2 = Math.floor(Math.random() * 4)
+// if (MarshTrick1 == 0){
+//     document.getElementById(Marsh1).classList.remove('treat');
+//     document.getElementById(Marsh1).classList.add('trick');
+// } else if (MarshTrick1 == 1){
+//     document.getElementById(Marsh2).classList.remove('treat');
+//     document.getElementById(Marsh2).classList.add('trick');
+// } else if (MarshTrick1 == 2){
+//     document.getElementById(Marsh3).classList.remove('treat');
+//     document.getElementById(Marsh3).classList.add('trick');
+// } else if (MarshTrick1 == 3){
+//     document.getElementById(Marsh4).classList.remove('treat');
+//     document.getElementById(Marsh4).classList.add('trick');
+// } else {
+//     alert('error')
+// }
+// if (MarshTrick2 == 0){
+//     document.getElementById(Marsh5).classList.remove('treat');
+//     document.getElementById(Marsh5).classList.add('trick');
+// } else if (MarshTrick2 == 1){
+//     document.getElementById(Marsh6).classList.remove('treat');
+//     document.getElementById(Marsh6).classList.add('trick');
+// } else if (MarshTrick2 == 2){
+//     document.getElementById(Marsh7).classList.remove('treat');
+//     document.getElementById(Marsh7).classList.add('trick');
+// } else if (MarshTrick2 == 3){
+//     document.getElementById(Marsh8).classList.remove('treat');
+//     document.getElementById(Marsh8).classList.add('trick');
+// } else {
+//     alert('error')
+// }
 
 var Canyon1 = tiles[Math.floor(Math.random() * 5) + 46]
 var Canyon2 = tiles[Math.floor(Math.random() * 5) + 51]
@@ -114,38 +114,38 @@ document.getElementById(Canyon5).classList.add('treat');
 document.getElementById(Canyon6).classList.add('treat');
 document.getElementById(Canyon7).classList.add('treat');
 document.getElementById(Canyon8).classList.add('treat');
-var CanyonTrick1 = Math.floor(Math.random() * 4)
-var CanyonTrick2 = Math.floor(Math.random() * 4)
-if (CanyonTrick1 == 0){
-    document.getElementById(Canyon1).classList.remove('treat');
-    document.getElementById(Canyon1).classList.add('trick');
-} else if (CanyonTrick1 == 1){
-    document.getElementById(Canyon2).classList.remove('treat');
-    document.getElementById(Canyon2).classList.add('trick');
-} else if (CanyonTrick1 == 2){
-    document.getElementById(Canyon3).classList.remove('treat');
-    document.getElementById(Canyon3).classList.add('trick');
-} else if (CanyonTrick1 == 3){
-    document.getElementById(Canyon4).classList.remove('treat');
-    document.getElementById(Canyon4).classList.add('trick');
-} else {
-    alert('error')
-}
-if (CanyonTrick2 == 0){
-    document.getElementById(Canyon5).classList.remove('treat');
-    document.getElementById(Canyon5).classList.add('trick');
-} else if (CanyonTrick2 == 1){
-    document.getElementById(Canyon6).classList.remove('treat');
-    document.getElementById(Canyon6).classList.add('trick');
-} else if (CanyonTrick2 == 2){
-    document.getElementById(Canyon7).classList.remove('treat');
-    document.getElementById(Canyon7).classList.add('trick');
-} else if (CanyonTrick2 == 3){
-    document.getElementById(Canyon8).classList.remove('treat');
-    document.getElementById(Canyon8).classList.add('trick');
-} else {
-    alert('error')
-}
+// var CanyonTrick1 = Math.floor(Math.random() * 4)
+// var CanyonTrick2 = Math.floor(Math.random() * 4)
+// if (CanyonTrick1 == 0){
+//     document.getElementById(Canyon1).classList.remove('treat');
+//     document.getElementById(Canyon1).classList.add('trick');
+// } else if (CanyonTrick1 == 1){
+//     document.getElementById(Canyon2).classList.remove('treat');
+//     document.getElementById(Canyon2).classList.add('trick');
+// } else if (CanyonTrick1 == 2){
+//     document.getElementById(Canyon3).classList.remove('treat');
+//     document.getElementById(Canyon3).classList.add('trick');
+// } else if (CanyonTrick1 == 3){
+//     document.getElementById(Canyon4).classList.remove('treat');
+//     document.getElementById(Canyon4).classList.add('trick');
+// } else {
+//     alert('error')
+// }
+// if (CanyonTrick2 == 0){
+//     document.getElementById(Canyon5).classList.remove('treat');
+//     document.getElementById(Canyon5).classList.add('trick');
+// } else if (CanyonTrick2 == 1){
+//     document.getElementById(Canyon6).classList.remove('treat');
+//     document.getElementById(Canyon6).classList.add('trick');
+// } else if (CanyonTrick2 == 2){
+//     document.getElementById(Canyon7).classList.remove('treat');
+//     document.getElementById(Canyon7).classList.add('trick');
+// } else if (CanyonTrick2 == 3){
+//     document.getElementById(Canyon8).classList.remove('treat');
+//     document.getElementById(Canyon8).classList.add('trick');
+// } else {
+//     alert('error')
+// }
 
 var City1 = tiles[Math.floor(Math.random() * 5) + 86]
 var City2 = tiles[Math.floor(Math.random() * 5) + 91]
@@ -163,45 +163,45 @@ document.getElementById(City5).classList.add('treat');
 document.getElementById(City6).classList.add('treat');
 document.getElementById(City7).classList.add('treat');
 document.getElementById(City8).classList.add('treat');
-var CityTrick1 = Math.floor(Math.random() * 4)
-var CityTrick2 = Math.floor(Math.random() * 4)
-if (CityTrick1 == 0){
-    document.getElementById(City1).classList.remove('treat');
-    document.getElementById(City1).classList.add('trick');
-} else if (CityTrick1 == 1){
-    document.getElementById(City2).classList.remove('treat');
-    document.getElementById(City2).classList.add('trick');
-} else if (CityTrick1 == 2){
-    document.getElementById(City3).classList.remove('treat');
-    document.getElementById(City3).classList.add('trick');
-} else if (CityTrick1 == 3){
-    document.getElementById(City4).classList.remove('treat');
-    document.getElementById(City4).classList.add('trick');
-} else {
-    alert('error')
-}
-if (CityTrick2 == 0){
-    document.getElementById(City5).classList.remove('treat');
-    document.getElementById(City5).classList.add('trick');
-} else if (CityTrick2 == 1){
-    document.getElementById(City6).classList.remove('treat');
-    document.getElementById(City6).classList.add('trick');
-} else if (CityTrick2 == 2){
-    document.getElementById(City7).classList.remove('treat');
-    document.getElementById(City7).classList.add('trick');
-} else if (CityTrick2 == 3){
-    document.getElementById(City8).classList.remove('treat');
-    document.getElementById(City8).classList.add('trick');
-} else {
-    alert('error')
-};
+// var CityTrick1 = Math.floor(Math.random() * 4)
+// var CityTrick2 = Math.floor(Math.random() * 4)
+// if (CityTrick1 == 0){
+//     document.getElementById(City1).classList.remove('treat');
+//     document.getElementById(City1).classList.add('trick');
+// } else if (CityTrick1 == 1){
+//     document.getElementById(City2).classList.remove('treat');
+//     document.getElementById(City2).classList.add('trick');
+// } else if (CityTrick1 == 2){
+//     document.getElementById(City3).classList.remove('treat');
+//     document.getElementById(City3).classList.add('trick');
+// } else if (CityTrick1 == 3){
+//     document.getElementById(City4).classList.remove('treat');
+//     document.getElementById(City4).classList.add('trick');
+// } else {
+//     alert('error')
+// }
+// if (CityTrick2 == 0){
+//     document.getElementById(City5).classList.remove('treat');
+//     document.getElementById(City5).classList.add('trick');
+// } else if (CityTrick2 == 1){
+//     document.getElementById(City6).classList.remove('treat');
+//     document.getElementById(City6).classList.add('trick');
+// } else if (CityTrick2 == 2){
+//     document.getElementById(City7).classList.remove('treat');
+//     document.getElementById(City7).classList.add('trick');
+// } else if (CityTrick2 == 3){
+//     document.getElementById(City8).classList.remove('treat');
+//     document.getElementById(City8).classList.add('trick');
+// } else {
+//     alert('error')
+// };
 
 function ItemCheck1() {
-    if (tiles[place1] === Marsh1 || tiles[place1] === Marsh2 || tiles[place1] === Marsh3 || tiles[place1] === Marsh4 || tiles[place1] === Marsh5 || tiles[place1] === Marsh6 || tiles[place1] === Marsh7 || tiles[place1] === Marsh8) {
+    if (tiles[place] === Marsh1 || tiles[place] === Marsh2 || tiles[place] === Marsh3 || tiles[place] === Marsh4 || tiles[place] === Marsh5 || tiles[place] === Marsh6 || tiles[place] === Marsh7 || tiles[place] === Marsh8) {
         Player1Stun += 1
-    } else if (tiles[place1] === Canyon1 || tiles[place1] === Canyon2 || tiles[place1] === Canyon3 || tiles[place1] === Canyon4 || tiles[place1] === Canyon5 || tiles[place1] === Canyon6 || tiles[place1] === Canyon7 || tiles[place1] === Canyon8){
+    } else if (tiles[place] === Canyon1 || tiles[place] === Canyon2 || tiles[place] === Canyon3 || tiles[place] === Canyon4 || tiles[place] === Canyon5 || tiles[place] === Canyon6 || tiles[place] === Canyon7 || tiles[place] === Canyon8){
         Player1Stun += 1
-    } else if (tiles[place1] === City1 || tiles[place1] === City2 || tiles[place1] === City3 || tiles[place1] === City4 || tiles[place1] === City5 || tiles[place1] === City6 || tiles[place1] === City7 || tiles[place1] === City8){
+    } else if (tiles[place] === City1 || tiles[place] === City2 || tiles[place] === City3 || tiles[place] === City4 || tiles[place] === City5 || tiles[place] === City6 || tiles[place] === City7 || tiles[place] === City8){
         Player1Stun += 1
     } else {
         console.log('good')
@@ -245,18 +245,232 @@ function ItemCheck4() {
 }
 
 function wincheck() {
-    if (place1 >= Space127)
-    alert('Player 1 Wins!')
+    if (place >= 126){
+        alert('Player 1 Wins!')
+    }
+    else if (place2 >= 126){
+        alert('Player 2 Wins!')
+    }
+    else if (place3 >= 126){
+        alert('Player 3 Wins!')
+    }
+    else if (place4 >= 126){
+        alert('Player 4 Wins!')
+    }
 }
-function wincheck() {
-    if (place2 >= Space127)
-    alert('Player 2 Wins!')
+
+function LizardStun1() {
+    if (tiles[place] === Marsh1) {
+        document.getElementById(Marsh1).classList.remove('treat');
+    } else if (tiles[place] === Marsh2) {
+        document.getElementById(Marsh2).classList.remove('treat');
+    } else if (tiles[place] === Marsh3) {
+        document.getElementById(Marsh3).classList.remove('treat');
+    } else if (tiles[place] === Marsh4) {
+        document.getElementById(Marsh4).classList.remove('treat');
+    } else if (tiles[place] === Marsh5) {
+        document.getElementById(Marsh5).classList.remove('treat');
+    } else if (tiles[place] === Marsh6) {
+        document.getElementById(Marsh6).classList.remove('treat');
+    } else if (tiles[place] === Marsh7) {
+        document.getElementById(Marsh7).classList.remove('treat');
+    } else if (tiles[place] === Marsh8) {
+        document.getElementById(Marsh8).classList.remove('treat');
+    } else if (tiles[place] === Canyon1) {
+        document.getElementById(Canyon1).classList.remove('treat');
+    } else if (tiles[place] === Canyon2) {
+        document.getElementById(Canyon2).classList.remove('treat');
+    } else if (tiles[place] === Canyon3) {
+        document.getElementById(Canyon3).classList.remove('treat');
+    } else if (tiles[place] === Canyon4) {
+        document.getElementById(Canyon4).classList.remove('treat');
+    } else if (tiles[place] === Canyon5) {
+        document.getElementById(Canyon5).classList.remove('treat');
+    } else if (tiles[place] === Canyon6) {
+        document.getElementById(Canyon6).classList.remove('treat');
+    } else if (tiles[place] === Canyon7) {
+        document.getElementById(Canyon7).classList.remove('treat');
+    } else if (tiles[place] === Canyon8) {
+        document.getElementById(Canyon8).classList.remove('treat');
+    } else if (tiles[place] === City1) {
+        document.getElementById(City1).classList.remove('treat');
+    } else if (tiles[place] === City2) {
+        document.getElementById(City2).classList.remove('treat');
+    } else if (tiles[place] === City3) {
+        document.getElementById(City3).classList.remove('treat');
+    } else if (tiles[place] === City4) {
+        document.getElementById(City4).classList.remove('treat');
+    } else if (tiles[place] === City5) {
+        document.getElementById(City5).classList.remove('treat');
+    } else if (tiles[place] === City6) {
+        document.getElementById(City6).classList.remove('treat');
+    } else if (tiles[place] === City7) {
+        document.getElementById(City7).classList.remove('treat');
+    } else if (tiles[place] === City8) {
+        document.getElementById(City8).classList.remove('treat');
+    } else {
+        console.log('lucky')
+    }
 }
-function wincheck() {
-    if (place3 >= Space127)
-    alert('Player 3 Wins!')
+
+function LizardStun2() {
+    if (tiles[place2] === Marsh1) {
+        document.getElementById(Marsh1).classList.remove('treat');
+    } else if (tiles[place2] === Marsh2) {
+        document.getElementById(Marsh2).classList.remove('treat');
+    } else if (tiles[place2] === Marsh3) {
+        document.getElementById(Marsh3).classList.remove('treat');
+    } else if (tiles[place2] === Marsh4) {
+        document.getElementById(Marsh4).classList.remove('treat');
+    } else if (tiles[place2] === Marsh5) {
+        document.getElementById(Marsh5).classList.remove('treat');
+    } else if (tiles[place2] === Marsh6) {
+        document.getElementById(Marsh6).classList.remove('treat');
+    } else if (tiles[place2] === Marsh7) {
+        document.getElementById(Marsh7).classList.remove('treat');
+    } else if (tiles[place2] === Marsh8) {
+        document.getElementById(Marsh8).classList.remove('treat');
+    } else if (tiles[place2] === Canyon1) {
+        document.getElementById(Canyon1).classList.remove('treat');
+    } else if (tiles[place2] === Canyon2) {
+        document.getElementById(Canyon2).classList.remove('treat');
+    } else if (tiles[place2] === Canyon3) {
+        document.getElementById(Canyon3).classList.remove('treat');
+    } else if (tiles[place2] === Canyon4) {
+        document.getElementById(Canyon4).classList.remove('treat');
+    } else if (tiles[place2] === Canyon5) {
+        document.getElementById(Canyon5).classList.remove('treat');
+    } else if (tiles[place2] === Canyon6) {
+        document.getElementById(Canyon6).classList.remove('treat');
+    } else if (tiles[place2] === Canyon7) {
+        document.getElementById(Canyon7).classList.remove('treat');
+    } else if (tiles[place2] === Canyon8) {
+        document.getElementById(Canyon8).classList.remove('treat');
+    } else if (tiles[place2] === City1) {
+        document.getElementById(City1).classList.remove('treat');
+    } else if (tiles[place2] === City2) {
+        document.getElementById(City2).classList.remove('treat');
+    } else if (tiles[place2] === City3) {
+        document.getElementById(City3).classList.remove('treat');
+    } else if (tiles[place2] === City4) {
+        document.getElementById(City4).classList.remove('treat');
+    } else if (tiles[place2] === City5) {
+        document.getElementById(City5).classList.remove('treat');
+    } else if (tiles[place2] === City6) {
+        document.getElementById(City6).classList.remove('treat');
+    } else if (tiles[place2] === City7) {
+        document.getElementById(City7).classList.remove('treat');
+    } else if (tiles[place2] === City8) {
+        document.getElementById(City8).classList.remove('treat');
+    } else {
+        console.log('lucky')
+    }
 }
-function wincheck() {
-    if (place4 >= Space127)
-    alert('Player 4 Wins!')
+
+function LizardStun3() {
+    if (tiles[place3] === Marsh1) {
+        document.getElementById(Marsh1).classList.remove('treat');
+    } else if (tiles[place3] === Marsh2) {
+        document.getElementById(Marsh2).classList.remove('treat');
+    } else if (tiles[place3] === Marsh3) {
+        document.getElementById(Marsh3).classList.remove('treat');
+    } else if (tiles[place3] === Marsh4) {
+        document.getElementById(Marsh4).classList.remove('treat');
+    } else if (tiles[place3] === Marsh5) {
+        document.getElementById(Marsh5).classList.remove('treat');
+    } else if (tiles[place3] === Marsh6) {
+        document.getElementById(Marsh6).classList.remove('treat');
+    } else if (tiles[place3] === Marsh7) {
+        document.getElementById(Marsh7).classList.remove('treat');
+    } else if (tiles[place3] === Marsh8) {
+        document.getElementById(Marsh8).classList.remove('treat');
+    } else if (tiles[place3] === Canyon1) {
+        document.getElementById(Canyon1).classList.remove('treat');
+    } else if (tiles[place3] === Canyon2) {
+        document.getElementById(Canyon2).classList.remove('treat');
+    } else if (tiles[place3] === Canyon3) {
+        document.getElementById(Canyon3).classList.remove('treat');
+    } else if (tiles[place3] === Canyon4) {
+        document.getElementById(Canyon4).classList.remove('treat');
+    } else if (tiles[place3] === Canyon5) {
+        document.getElementById(Canyon5).classList.remove('treat');
+    } else if (tiles[place3] === Canyon6) {
+        document.getElementById(Canyon6).classList.remove('treat');
+    } else if (tiles[place3] === Canyon7) {
+        document.getElementById(Canyon7).classList.remove('treat');
+    } else if (tiles[place3] === Canyon8) {
+        document.getElementById(Canyon8).classList.remove('treat');
+    } else if (tiles[place3] === City1) {
+        document.getElementById(City1).classList.remove('treat');
+    } else if (tiles[place3] === City2) {
+        document.getElementById(City2).classList.remove('treat');
+    } else if (tiles[place3] === City3) {
+        document.getElementById(City3).classList.remove('treat');
+    } else if (tiles[place3] === City4) {
+        document.getElementById(City4).classList.remove('treat');
+    } else if (tiles[place3] === City5) {
+        document.getElementById(City5).classList.remove('treat');
+    } else if (tiles[place3] === City6) {
+        document.getElementById(City6).classList.remove('treat');
+    } else if (tiles[place3] === City7) {
+        document.getElementById(City7).classList.remove('treat');
+    } else if (tiles[place3] === City8) {
+        document.getElementById(City8).classList.remove('treat');
+    } else {
+        console.log('lucky')
+    }
+}
+
+function LizardStun4() {
+    if (tiles[place4] === Marsh1) {
+        document.getElementById(Marsh1).classList.remove('treat');
+    } else if (tiles[place4] === Marsh2) {
+        document.getElementById(Marsh2).classList.remove('treat');
+    } else if (tiles[place4] === Marsh3) {
+        document.getElementById(Marsh3).classList.remove('treat');
+    } else if (tiles[place4] === Marsh4) {
+        document.getElementById(Marsh4).classList.remove('treat');
+    } else if (tiles[place4] === Marsh5) {
+        document.getElementById(Marsh5).classList.remove('treat');
+    } else if (tiles[place4] === Marsh6) {
+        document.getElementById(Marsh6).classList.remove('treat');
+    } else if (tiles[place4] === Marsh7) {
+        document.getElementById(Marsh7).classList.remove('treat');
+    } else if (tiles[place4] === Marsh8) {
+        document.getElementById(Marsh8).classList.remove('treat');
+    } else if (tiles[place4] === Canyon1) {
+        document.getElementById(Canyon1).classList.remove('treat');
+    } else if (tiles[place4] === Canyon2) {
+        document.getElementById(Canyon2).classList.remove('treat');
+    } else if (tiles[place4] === Canyon3) {
+        document.getElementById(Canyon3).classList.remove('treat');
+    } else if (tiles[place4] === Canyon4) {
+        document.getElementById(Canyon4).classList.remove('treat');
+    } else if (tiles[place4] === Canyon5) {
+        document.getElementById(Canyon5).classList.remove('treat');
+    } else if (tiles[place4] === Canyon6) {
+        document.getElementById(Canyon6).classList.remove('treat');
+    } else if (tiles[place4] === Canyon7) {
+        document.getElementById(Canyon7).classList.remove('treat');
+    } else if (tiles[place4] === Canyon8) {
+        document.getElementById(Canyon8).classList.remove('treat');
+    } else if (tiles[place4] === City1) {
+        document.getElementById(City1).classList.remove('treat');
+    } else if (tiles[place4] === City2) {
+        document.getElementById(City2).classList.remove('treat');
+    } else if (tiles[place4] === City3) {
+        document.getElementById(City3).classList.remove('treat');
+    } else if (tiles[place4] === City4) {
+        document.getElementById(City4).classList.remove('treat');
+    } else if (tiles[place4] === City5) {
+        document.getElementById(City5).classList.remove('treat');
+    } else if (tiles[place4] === City6) {
+        document.getElementById(City6).classList.remove('treat');
+    } else if (tiles[place4] === City7) {
+        document.getElementById(City7).classList.remove('treat');
+    } else if (tiles[place4] === City8) {
+        document.getElementById(City8).classList.remove('treat');
+    } else {
+        console.log('lucky')
+    }
 }

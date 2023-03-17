@@ -69,15 +69,16 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .playerbox{
     display: flex;
     border: 1px black solid;
-    width: calc(20% - 2px);
-    height: calc(25vh - 2px);
+    width: 20%;
+    height: 25vh;
     background-color: gray;
+    box-sizing: border-box;
+    /* border: black solid 1px; */
 }
 
 #butt1, #butt2, #butt3, #butt4{
     width: calc(20vw - 124px);
     height: 122px;
-    /* background-color: red; */
 }
 
 .ButtDice{
@@ -135,8 +136,6 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     border: black 1px solid;
 }
 
-.Oven{
-}
 .Oven{
     background-image:url(/images/Drawing-6.sketchpad.png); 
     background-repeat: no-repeat;
@@ -314,16 +313,107 @@ img{
 }
 
 .trick{
-    background-image: url(trick-or-treat-pixilart.png);
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(3\).png);
     background-repeat: no-repeat;
     background-position:top;
     background-size: contain;
 }
 
 .treat{
-    background-image: url(trick-or-treat-pixilart.png);
+    background-image: url(/images/pasted_image_0-removebg-preview\ \(3\).png);
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
     background-size: contain;
+}
 
+#Dsix, #Place, #Dsix-2, #Place-2, #Dsix-3, #Place-3, #Dsix-4, #Place-4{
+    color: gray;
+}
+
+#Sidebar1{
+    /* box-sizing: border-box; */
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: black solid 1px;
+}
+
+#Sidebar3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 25vh;
+    border: black solid 1px;
+}
+
+#Sidebar5{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50vh;
+    border: black solid 1px;
+}
+
+#Sidebar7{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 75vh;
+    border: black solid 1px;
+}
+
+#Sidebar2{
+    color: rgb(190, 0, 0);
+    height: 12.5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    position: absolute;
+    margin-top: 12.5vh;
+    margin-left: 5px;
+}
+
+#Sidebar4{
+    color: blue;
+    height: 12.5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    position: absolute;
+    margin-top: 37.5vh;
+}
+
+#Sidebar6{
+    color: orange;
+    height: 12.5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    position: absolute;
+    margin-top: 62.5vh;
+}
+
+#Sidebar8{
+    color: rgb(0, 255, 0);
+    height: 12.5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    position: absolute;
+    margin-top: 87.5vh;
+}
+
+.Danger{
+    background-image: url(images/you\ spin\ me\ right\ round\ baby\ right\ round.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
 }

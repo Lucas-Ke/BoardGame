@@ -64,6 +64,8 @@ function DiceSpin3() {
 
 function D14(){
     D34 = 2
+    document.getElementById("Sidebar4").classList.remove('Danger')
+    LizardStun3()
     document.getElementById(tiles[place3]).classList.add('Character3')
     document.getElementById(tiles[D23]).classList.remove('Character3')
     document.getElementById('Oven2').remove();
@@ -88,6 +90,7 @@ function Lice33() {
     document.getElementById("butt3").classList.remove('AlmostDice')
     document.getElementById("butt4").classList.remove('AlmostDice')
     ItemCheck3()
+    wincheck()
 }
 
 function DiceRand3() {

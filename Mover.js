@@ -474,3 +474,83 @@ function LizardStun4() {
         console.log('lucky')
     }
 }
+
+function LizzDice1() {
+    if (tiles[place] === Marsh1 || tiles[place] === Marsh2 || tiles[place] === Marsh3 || tiles[place] === Marsh4 || tiles[place] === Marsh5 || tiles[place] === Marsh6 || tiles[place] === Marsh7 || tiles[place] === Marsh8) {
+        document.getElementById("Sidebar1").classList.add('Danger')
+    } else if (tiles[place] === Canyon1 || tiles[place] === Canyon2 || tiles[place] === Canyon3 || tiles[place] === Canyon4 || tiles[place] === Canyon5 || tiles[place] === Canyon6 || tiles[place] === Canyon7 || tiles[place] === Canyon8){
+        document.getElementById("Sidebar1").classList.add('Danger')
+    } else if (tiles[place] === City1 || tiles[place] === City2 || tiles[place] === City3 || tiles[place] === City4 || tiles[place] === City5 || tiles[place] === City6 || tiles[place] === City7 || tiles[place] === City8){
+        document.getElementById("Sidebar1").classList.add('Danger')
+    } else {
+        console.log('good')
+    }
+}
+
+function LizzDice2() {
+    if (tiles[place2] === Marsh1 || tiles[place2] === Marsh2 || tiles[place2] === Marsh3 || tiles[place2] === Marsh4 || tiles[place2] === Marsh5 || tiles[place2] === Marsh6 || tiles[place2] === Marsh7 || tiles[place2] === Marsh8) {
+        document.getElementById("Sidebar3").classList.add('Danger')
+    } else if (tiles[place2] === Canyon1 || tiles[place2] === Canyon2 || tiles[place2] === Canyon3 || tiles[place2] === Canyon4 || tiles[place2] === Canyon5 || tiles[place2] === Canyon6 || tiles[place2] === Canyon7 || tiles[place2] === Canyon8){
+        document.getElementById("Sidebar3").classList.add('Danger')
+    } else if (tiles[place2] === City1 || tiles[place2] === City2 || tiles[place2] === City3 || tiles[place2] === City4 || tiles[place2] === City5 || tiles[place2] === City6 || tiles[place2] === City7 || tiles[place2] === City8){
+        document.getElementById("Sidebar3").classList.add('Danger')
+    } else {
+        console.log('good')
+    }
+}
+
+function LizzDice3() {
+    if (tiles[place3] === Marsh1 || tiles[place3] === Marsh2 || tiles[place3] === Marsh3 || tiles[place3] === Marsh4 || tiles[place3] === Marsh5 || tiles[place3] === Marsh6 || tiles[place3] === Marsh7 || tiles[place3] === Marsh8) {
+        document.getElementById("Sidebar5").classList.add('Danger')
+    } else if (tiles[place3] === Canyon1 || tiles[place3] === Canyon2 || tiles[place3] === Canyon3 || tiles[place3] === Canyon4 || tiles[place3] === Canyon5 || tiles[place3] === Canyon6 || tiles[place3] === Canyon7 || tiles[place3] === Canyon8){
+        document.getElementById("Sidebar5").classList.add('Danger')
+    } else if (tiles[place3] === City1 || tiles[place3] === City2 || tiles[place3] === City3 || tiles[place3] === City4 || tiles[place3] === City5 || tiles[place3] === City6 || tiles[place3] === City7 || tiles[place3] === City8){
+        document.getElementById("Sidebar5").classList.add('Danger')
+    } else {
+        console.log('good')
+    }
+}
+
+function LizzDice4() {
+    if (tiles[place4] === Marsh1 || tiles[place4] === Marsh2 || tiles[place4] === Marsh3 || tiles[place4] === Marsh4 || tiles[place4] === Marsh5 || tiles[place4] === Marsh6 || tiles[place4] === Marsh7 || tiles[place4] === Marsh8) {
+        document.getElementById("Sidebar7").classList.add('Danger')
+    } else if (tiles[place4] === Canyon1 || tiles[place4] === Canyon2 || tiles[place4] === Canyon3 || tiles[place4] === Canyon4 || tiles[place4] === Canyon5 || tiles[place4] === Canyon6 || tiles[place4] === Canyon7 || tiles[place4] === Canyon8){
+        document.getElementById("Sidebar7").classList.add('Danger')
+    } else if (tiles[place4] === City1 || tiles[place4] === City2 || tiles[place4] === City3 || tiles[place4] === City4 || tiles[place4] === City5 || tiles[place4] === City6 || tiles[place4] === City7 || tiles[place4] === City8){
+        document.getElementById("Sidebar7").classList.add('Danger')
+    } else {
+        console.log('good')
+    }
+}
+
+function LizzDance1(){
+    if (Player1Stun > 0) {
+        document.getElementById("Sidebar1").classList.add('Danger')
+    } else {    
+        document.getElementById("Sidebar1").classList.remove('Danger')
+    }
+}
+
+function LizzDance2(){
+    if (Player2Stun > 0) {
+        document.getElementById("Sidebar3").classList.add('Danger')
+    } else {    
+        document.getElementById("Sidebar3").classList.remove('Danger')
+    }
+}
+
+function LizzDance3(){
+    if (Player3Stun > 0) {
+        document.getElementById("Sidebar5").classList.add('Danger')
+    } else {    
+        document.getElementById("Sidebar5").classList.remove('Danger')
+    }
+}
+
+function LizzDance4(){
+    if (Player4Stun > 0) {
+        document.getElementById("Sidebar7").classList.add('Danger')
+    } else {    
+        document.getElementById("Sidebar7").classList.remove('Danger')
+    }
+}

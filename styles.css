@@ -221,6 +221,7 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
 .Smore{
     background-image:url(/images/pixilart-drawing\ \(12\).png);
     background-size: contain;
+    background-color: gold;
 }
 .loss{
     background-image: url(/images/pixilart-drawing\ \(21\).png);
@@ -272,6 +273,8 @@ div.tangle>p, div.tangle-2>p, div.tangle-3>p, div.tangle-4>p{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    grid-column: 14/17;
+    grid-row: 6/9;
 }
 .loss33{
     background-image: url(/images/pixilart-drawing\ \(18\).png);

@@ -65,8 +65,9 @@ function DiceSpin() {
 
 function D12(){
     D32 = 2
-    document.getElementById("Sidebar2").classList.remove('Danger')
+    document.getElementById("Sidebar3").classList.remove('Danger')
     LizardStun1()
+    LizzDice1()
     document.getElementById(tiles[place]).classList.add('Character1')
     document.getElementById(tiles[D2]).classList.remove('Character1')
     document.getElementById('Oven1').remove();

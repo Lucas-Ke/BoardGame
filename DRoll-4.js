@@ -67,6 +67,7 @@ function D11(){
     D31 = 2
     document.getElementById("Sidebar1").classList.remove('Danger')
     LizardStun4()
+    LizzDice4()
     document.getElementById(tiles[place4]).classList.add('Character4')
     document.getElementById(tiles[D24]).classList.remove('Character4')
     document.getElementById('Oven4').remove();

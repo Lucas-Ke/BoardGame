@@ -300,6 +300,7 @@ function ItemCheck4() {
     }
 }
 
+
 var worm = tiles[Math.floor(Math.random() * 120) + 6];
 document.getElementById(worm).classList.add('worm');
 function wormy() {
@@ -307,7 +308,7 @@ function wormy() {
         console.log('hi')
         document.getElementById('JumbWorm').classList.add('Jumped');
         setTimeout(RemoveJump, 1000)
-        playsoundWorm("sounds/splat.mp3");
+        playsoundWorm('sounds/squeaky-jumpscare-2-102254.mp3');
     } else {}
 }
 

@@ -429,10 +429,6 @@ img{
     background-repeat: no-repeat;
 }
 
-.worm{
-    background-image: url(images/gummy-worm-pixilart.png);
-}
-
 .Jumped{
     position: absolute;
     width: 100vw;

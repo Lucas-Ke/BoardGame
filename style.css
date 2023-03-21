@@ -17,15 +17,17 @@ h1{
     align-items: center;
 }
 .rules{
-    background-color: rgb(255, 103, 103);
+    background-color: rgb(255, 168, 204);
     flex-wrap: wrap;
-    /* margin-right: 25%;
-    margin-left: 25%; */
+    margin-right: 0%;
     padding-bottom: 1vh;
     padding-top: 1vh;
+    margin-left: 25%;
     overflow-x: auto;
-    height: 88vh;
+    height: 50%;
     width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 .rules p{
     text-align: center;
@@ -56,13 +58,14 @@ h1{
 .playbutton0{
     background-color: slategrey;
     margin-top: 1vh;
+    margin-bottom: 5%;
 }   
 .playbutton1, .playbutton2, .playbutton3, .playbutton4, .playbutton0{
     border: solid black 5px;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,12 +101,10 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.contain{
-    display: flex;
-    height: 90vh;
-}
+
 .buttons{
     width: 50%;
     height: 100%;
     box-sizing: border-box;
+    margin-left: 25%;
 }

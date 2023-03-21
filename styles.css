@@ -1,13 +1,13 @@
 *{
     margin: 0%;
     margin-bottom: 0%;
-}
-.playerbox:focus {
+}    
+::selection {
     color: gray;
-    
-}
-    
-
+    background: gray;
+    font-family: monospace;
+    font-style: normal;
+  }
 .crayon{
     display: flex;
     justify-content: end;

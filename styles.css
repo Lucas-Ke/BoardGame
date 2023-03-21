@@ -428,3 +428,18 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.worm{
+    background-image: url(images/gummy-worm-pixilart.png);
+}
+
+.Jumped{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/gummy-worm-pixilart.png);
+    z-index: 999;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

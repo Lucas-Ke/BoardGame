@@ -249,6 +249,7 @@ document.getElementById(City8).classList.add('treat');
 // };
 
 function ItemCheck1() {
+    wormy()
     if (tiles[place] === Marsh1 || tiles[place] === Marsh2 || tiles[place] === Marsh3 || tiles[place] === Marsh4 || tiles[place] === Marsh5 || tiles[place] === Marsh6 || tiles[place] === Marsh7 || tiles[place] === Marsh8) {
         Player1Stun += 1
     } else if (tiles[place] === Canyon1 || tiles[place] === Canyon2 || tiles[place] === Canyon3 || tiles[place] === Canyon4 || tiles[place] === Canyon5 || tiles[place] === Canyon6 || tiles[place] === Canyon7 || tiles[place] === Canyon8){
@@ -261,6 +262,7 @@ function ItemCheck1() {
 }
 
 function ItemCheck2() {
+    wormy()
     if (tiles[place2] === Marsh1 || tiles[place2] === Marsh2 || tiles[place2] === Marsh3 || tiles[place2] === Marsh4 || tiles[place2] === Marsh5 || tiles[place2] === Marsh6 || tiles[place2] === Marsh7 || tiles[place2] === Marsh8) {
         Player2Stun += 1
     } else if (tiles[place2] === Canyon1 || tiles[place2] === Canyon2 || tiles[place2] === Canyon3 || tiles[place2] === Canyon4 || tiles[place2] === Canyon5 || tiles[place2] === Canyon6 || tiles[place2] === Canyon7 || tiles[place2] === Canyon8){
@@ -273,6 +275,7 @@ function ItemCheck2() {
 }
 
 function ItemCheck3() {
+    wormy()
     if (tiles[place3] === Marsh1 || tiles[place3] === Marsh2 || tiles[place3] === Marsh3 || tiles[place3] === Marsh4 || tiles[place3] === Marsh5 || tiles[place3] === Marsh6 || tiles[place3] === Marsh7 || tiles[place3] === Marsh8) {
         Player3Stun += 1
     } else if (tiles[place3] === Canyon1 || tiles[place3] === Canyon2 || tiles[place3] === Canyon3 || tiles[place3] === Canyon4 || tiles[place3] === Canyon5 || tiles[place3] === Canyon6 || tiles[place3] === Canyon7 || tiles[place3] === Canyon8){
@@ -285,6 +288,7 @@ function ItemCheck3() {
 }
 
 function ItemCheck4() {
+    wormy()
     if (tiles[place4] === Marsh1 || tiles[place4] === Marsh2 || tiles[place4] === Marsh3 || tiles[place4] === Marsh4 || tiles[place4] === Marsh5 || tiles[place4] === Marsh6 || tiles[place4] === Marsh7 || tiles[place4] === Marsh8) {
         Player4Stun += 1
     } else if (tiles[place4] === Canyon1 || tiles[place4] === Canyon2 || tiles[place4] === Canyon3 || tiles[place4] === Canyon4 || tiles[place4] === Canyon5 || tiles[place4] === Canyon6 || tiles[place4] === Canyon7 || tiles[place4] === Canyon8){
@@ -294,6 +298,27 @@ function ItemCheck4() {
     } else {
         console.log('good')
     }
+}
+
+var worm = tiles[Math.floor(Math.random() * 120) + 6];
+document.getElementById(worm).classList.add('worm');
+function wormy() {
+    if (tiles[place] === worm || tiles[place2] === worm || tiles[place3] === worm || tiles[place4] === worm) {
+        console.log('hi')
+        document.getElementById('JumbWorm').classList.add('Jumped');
+        setTimeout(RemoveJump, 1000)
+        playsoundWorm("sounds/splat.mp3");
+    } else {}
+}
+
+function RemoveJump() {
+    console.log('What')
+    document.getElementById('JumbWorm').remove()
+}
+
+function playsoundWorm(link) {
+    let JGW= new Audio(link);
+    JGW.play();
 }
 
 function wincheck() {
@@ -577,29 +602,55 @@ function LizzDice4() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //                 _______________________________
     //                /                               \
     //               /                                 \
     //              /                                   \
     //     ________/_________________                    \
-    //    /                          \                    \
-    //   |                            |                    \
-    //   |                            |                     |
-    //   |                            |                     |_________
-    //   |                            |                     |         \
-    //   |                            |                     |          \
-    //   |                            |                     |           \
-    //    \__________________________/                      |            |
-    //          |                                           |            |
-    //          |                                           |            |
-    //          |                                           |            |
-    //          |                                           |            |
-    //          |                                           |            |
-    //          |                                           |            |
-    //          |                                           |___________/
-    //          |                                           |
-    //          |                                           |
-    //          |                     _                     |
+    //    /                          \            /|      \
+    //   |                            |          / |       \
+    //   |                            |         _| |        |
+    //   |                            |        /   |        |_________
+    //   |                            |      _|    |        |         \
+    //   |                            |     /      |        |          \
+    //   |                            |   _|       |        |           \
+    //    \__________________________/   /         |        |            |
+    //          |                       |          |        |            |
+    //          |                       |          |        |            |
+    //          |                       |          |        |            |
+    //          |                       |          |        |            |
+    //          |                    ___|__________|___     |            |
+    //          |                   (___            ___)    |            |
+    //          |                       |          |        |___________/
+    //          |                        \        /         |
+    //          |                         |      |          |
+    //          |                     _    \____/           |
     //           \                   / \                   /
     //            \                 /   \                 /
     //             \               /     \               /

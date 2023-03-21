@@ -2,6 +2,11 @@
     margin: 0%;
     margin-bottom: 0%;
 }
+.playerbox:focus {
+    color: gray;
+    
+}
+    
 
 .crayon{
     display: flex;

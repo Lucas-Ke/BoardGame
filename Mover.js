@@ -324,17 +324,30 @@ function playsoundWorm(link) {
 
 function wincheck() {
     if (place >= 126){
-        alert('Player 1 Wins!')
+        // alert('Player 1 Wins!')
+        playsoundWorm('sounds/squeaky-jumpscare-2-102254.mp3');
+        document.getElementById(JumbWorm).classList.add('p1winner');
     }
     else if (place2 >= 126){
-        alert('Player 2 Wins!')
+        // alert('Player 2 Wins!')
+        playsoundWorm('sounds/squeaky-jumpscare-2-102254.mp3');
+        document.getElementById(JumbWorm).classList.add('p2winner');
     }
     else if (place3 >= 126){
-        alert('Player 3 Wins!')
+        // alert('Player 3 Wins!')
+        playsoundWorm('sounds/squeaky-jumpscare-2-102254.mp3');
+        document.getElementById(JumbWorm).classList.add('p3winner');
     }
     else if (place4 >= 126){
-        alert('Player 4 Wins!')
+        // alert('Player 4 Wins!')
+        playsoundWorm('sounds/squeaky-jumpscare-2-102254.mp3');
+        document.getElementById(JumbWorm).classList.add('p4winner');
     }
+}
+
+function playsoundWinner(link) {
+    let Win= new Audio(link);
+    Win.play();
 }
 
 function LizardStun1() {
@@ -634,20 +647,20 @@ function LizzDice4() {
     //               /                                 \
     //              /                                   \
     //     ________/_________________                    \
-    //    /                          \            /|      \
-    //   |                            |          / |       \
-    //   |                            |         _| |        |
-    //   |                            |        /   |        |_________
-    //   |                            |      _|    |        |         \
-    //   |                            |     /      |        |          \
-    //   |                            |   _|       |        |           \
+    //    /                       \  \            /|      \
+    //   |                         |  |          / |       \
+    //   |                         |  |         _| |        |
+    //   |                         |  |        /   |        |_________
+    //   |                         |  |      _|    |        |         \
+    //   |                         |  |     /      |        |          \
+    //   |________________________/   |   _|       |        |           \
     //    \__________________________/   /         |        |            |
     //          |                       |          |        |            |
     //          |                       |          |        |            |
     //          |                       |          |        |            |
     //          |                       |          |        |            |
     //          |                    ___|__________|___     |            |
-    //          |                   (___            ___)    |            |
+    //          |                   (__________________)    |            |
     //          |                       |          |        |___________/
     //          |                        \        /         |
     //          |                         |      |          |

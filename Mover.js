@@ -324,24 +324,20 @@ function playsoundWorm(link) {
 
 function wincheck() {
     if (place >= 126){
-        // alert('Player 1 Wins!')
-        playsoundWinner('sounds/tbh.mp3');
         document.getElementById('JumbWorm').classList.add('p1winner');
+        playsoundWinner('sounds/tbh.mp3');
     }
     else if (place2 >= 126){
-        // alert('Player 2 Wins!')
-        playsoundWinner('sounds/tbh.mp3');
         document.getElementById('JumbWorm').classList.add('p2winner');
+        playsoundWinner('sounds/tbh.mp3');
     }
     else if (place3 >= 126){
-        // alert('Player 3 Wins!')
-        playsoundWinner('sounds/tbh.mp3');
         document.getElementById('JumbWorm').classList.add('p3winner');
+        playsoundWinner('sounds/tbh.mp3');
     }
     else if (place4 >= 126){
-        // alert('Player 4 Wins!')
-        playsoundWinner('sounds/tbh.mp3');
         document.getElementById('JumbWorm').classList.add('p4winner');
+        playsoundWinner('sounds/tbh.mp3');
     }
 }
 

@@ -449,7 +449,8 @@ img{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url(images/p1-win-screen-pixilart.png);
+    /* background-image: url(images/p1-win-screen-pixilart.png); */
+    background-image: url(images/winnerof1.png);
     z-index: 999;
     background-position: center;
     background-size: contain;
@@ -460,7 +461,8 @@ img{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url(images/p2-win-screen-pixilart.png);
+    /* background-image: url(images/p2-win-screen-pixilart.png); */
+    background-image: url(images/winnerof1.png);
     z-index: 999;
     background-position: center;
     background-size: contain;
@@ -471,7 +473,8 @@ img{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url(images/p3-win-screen-pixilart.png);
+    /* background-image: url(images/p3-win-screen-pixilart.png); */
+    background-image: url(images/winnerof1.png);
     z-index: 999;
     background-position: center;
     background-size: contain;
@@ -482,7 +485,8 @@ img{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url(images/p4-win-screen-pixilart.png);
+    /* background-image: url(images/p4-win-screen-pixilart.png); */
+    background-image: url(images/winnerof1.png);
     z-index: 999;
     background-position: center;
     background-size: contain;
